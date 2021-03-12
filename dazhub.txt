@@ -1,0 +1,4825 @@
+-- Instances:
+
+local ExploitGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local MadeBy = Instance.new("TextLabel")
+local Games = Instance.new("Folder")
+local PrisonLife = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Arsenal = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local GamesTitle = Instance.new("TextLabel")
+local RightArrow = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local FTF = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local SaberSim = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SharkBite = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local GlobalScripts = Instance.new("Folder")
+local Title_2 = Instance.new("TextLabel")
+local LeftArrow = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local OwlHub = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local RevizAdmin = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local ClickTP = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Intro = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Title_3 = Instance.new("TextLabel")
+local VIP = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Title_4 = Instance.new("TextLabel")
+local Version_2 = Instance.new("TextLabel")
+local MadeBy_2 = Instance.new("TextLabel")
+local Games_2 = Instance.new("Folder")
+local PrisonLife_2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Arsenal_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local GamesTitle_2 = Instance.new("TextLabel")
+local RightArrow_2 = Instance.new("TextButton")
+local SharkBite_2 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local SaberSim_2 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local FTF_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local MM2_2 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local GlobalScripts_2 = Instance.new("Folder")
+local Title_5 = Instance.new("TextLabel")
+local LeftArrow_2 = Instance.new("TextButton")
+local Dex_2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local OwlHub_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local RevizAdmin_2 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local ClickTP_2 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Minimise = Instance.new("TextButton")
+local MinimiseVIP = Instance.new("TextButton")
+
+--Properties:
+
+ExploitGui.Name = "ExploitGui"
+ExploitGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ExploitGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ExploitGui.DisplayOrder = 1000
+
+Main.Name = "Main"
+Main.Parent = ExploitGui
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Main.Position = UDim2.new(0.165000007, 0, 0.805000007, 0)
+Main.Size = UDim2.new(0, 500, 0, 300)
+Main.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = Main
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.AnchorPoint = Vector2.new(0.5, 0.5)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+Title.Size = UDim2.new(0, 200, 0, 30)
+Title.Font = Enum.Font.GothamBlack
+Title.Text = "DazHub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Version.Name = "Version"
+Version.Parent = Title
+Version.AnchorPoint = Vector2.new(0.5, 0.5)
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.5, 0, 1.10000002, 0)
+Version.Size = UDim2.new(0, 200, 0, 10)
+Version.Font = Enum.Font.Gotham
+Version.Text = "v0.1.0"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+MadeBy.Name = "MadeBy"
+MadeBy.Parent = Main
+MadeBy.AnchorPoint = Vector2.new(0.5, 0.5)
+MadeBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy.BackgroundTransparency = 1.000
+MadeBy.Position = UDim2.new(0.5, 0, 0.975000024, 0)
+MadeBy.Size = UDim2.new(0, 300, 0, 12)
+MadeBy.Font = Enum.Font.Gotham
+MadeBy.Text = "Made By Daz | discord.gg/qF6ntmTH8c"
+MadeBy.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy.TextScaled = true
+MadeBy.TextSize = 14.000
+MadeBy.TextWrapped = true
+
+Games.Name = "Games"
+Games.Parent = Main
+
+PrisonLife.Name = "PrisonLife"
+PrisonLife.Parent = Games
+PrisonLife.AnchorPoint = Vector2.new(0.5, 0.5)
+PrisonLife.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PrisonLife.Position = UDim2.new(0.25, 0, 0.400000006, 0)
+PrisonLife.Size = UDim2.new(0, 200, 0, 50)
+PrisonLife.Font = Enum.Font.Gotham
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.TextSize = 14.000
+PrisonLife.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = PrisonLife
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Games
+Arsenal.AnchorPoint = Vector2.new(0.5, 0.5)
+Arsenal.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Arsenal.Position = UDim2.new(0.75, 0, 0.400000006, 0)
+Arsenal.Size = UDim2.new(0, 200, 0, 50)
+Arsenal.Font = Enum.Font.Gotham
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = Arsenal
+
+GamesTitle.Name = "GamesTitle"
+GamesTitle.Parent = Games
+GamesTitle.AnchorPoint = Vector2.new(0.5, 0.5)
+GamesTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle.BackgroundTransparency = 1.000
+GamesTitle.Position = UDim2.new(0.5, 0, 0.224999994, 0)
+GamesTitle.Size = UDim2.new(0, 200, 0, 25)
+GamesTitle.Font = Enum.Font.GothamBold
+GamesTitle.Text = "Games"
+GamesTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle.TextScaled = true
+GamesTitle.TextSize = 14.000
+GamesTitle.TextWrapped = true
+
+RightArrow.Name = "RightArrow"
+RightArrow.Parent = Games
+RightArrow.AnchorPoint = Vector2.new(0.5, 0.5)
+RightArrow.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+RightArrow.BackgroundTransparency = 1.000
+RightArrow.Position = UDim2.new(0.75, 0, 0.224999994, 0)
+RightArrow.Size = UDim2.new(0, 25, 0, 25)
+RightArrow.Font = Enum.Font.GothamBold
+RightArrow.Text = ">"
+RightArrow.TextColor3 = Color3.fromRGB(255, 255, 255)
+RightArrow.TextScaled = true
+RightArrow.TextSize = 14.000
+RightArrow.TextWrapped = true
+
+MM2.Name = "MM2"
+MM2.Parent = Games
+MM2.AnchorPoint = Vector2.new(0.5, 0.5)
+MM2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+MM2.Position = UDim2.new(0.25, 0, 0.600000024, 0)
+MM2.Size = UDim2.new(0, 200, 0, 50)
+MM2.Font = Enum.Font.Gotham
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = MM2
+
+FTF.Name = "FTF"
+FTF.Parent = Games
+FTF.AnchorPoint = Vector2.new(0.5, 0.5)
+FTF.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+FTF.Position = UDim2.new(0.75, 0, 0.600000024, 0)
+FTF.Size = UDim2.new(0, 200, 0, 50)
+FTF.Font = Enum.Font.Gotham
+FTF.Text = "Flee The Facility"
+FTF.TextColor3 = Color3.fromRGB(255, 255, 255)
+FTF.TextSize = 14.000
+FTF.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = FTF
+
+SaberSim.Name = "SaberSim"
+SaberSim.Parent = Games
+SaberSim.AnchorPoint = Vector2.new(0.5, 0.5)
+SaberSim.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SaberSim.Position = UDim2.new(0.25, 0, 0.800000012, 0)
+SaberSim.Size = UDim2.new(0, 200, 0, 50)
+SaberSim.Font = Enum.Font.Gotham
+SaberSim.Text = "Saber Sim"
+SaberSim.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaberSim.TextSize = 14.000
+SaberSim.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = SaberSim
+
+SharkBite.Name = "SharkBite"
+SharkBite.Parent = Games
+SharkBite.AnchorPoint = Vector2.new(0.5, 0.5)
+SharkBite.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SharkBite.Position = UDim2.new(0.75, 0, 0.800000012, 0)
+SharkBite.Size = UDim2.new(0, 200, 0, 50)
+SharkBite.Font = Enum.Font.Gotham
+SharkBite.Text = "Sharkbite"
+SharkBite.TextColor3 = Color3.fromRGB(255, 255, 255)
+SharkBite.TextSize = 14.000
+SharkBite.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 15)
+UICorner_7.Parent = SharkBite
+
+GlobalScripts.Name = "GlobalScripts"
+GlobalScripts.Parent = Main
+
+Title_2.Name = "Title"
+Title_2.Parent = GlobalScripts
+Title_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0.5, 0, 0.224999994, 0)
+Title_2.Size = UDim2.new(0, 200, 0, 25)
+Title_2.Visible = false
+Title_2.Font = Enum.Font.GothamBold
+Title_2.Text = "Global Scripts"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+LeftArrow.Name = "LeftArrow"
+LeftArrow.Parent = GlobalScripts
+LeftArrow.AnchorPoint = Vector2.new(0.5, 0.5)
+LeftArrow.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LeftArrow.BackgroundTransparency = 1.000
+LeftArrow.Position = UDim2.new(0.25, 0, 0.224999994, 0)
+LeftArrow.Size = UDim2.new(0, 25, 0, 25)
+LeftArrow.Visible = false
+LeftArrow.Font = Enum.Font.GothamBold
+LeftArrow.Text = "<"
+LeftArrow.TextColor3 = Color3.fromRGB(255, 255, 255)
+LeftArrow.TextScaled = true
+LeftArrow.TextSize = 14.000
+LeftArrow.TextWrapped = true
+
+Dex.Name = "Dex"
+Dex.Parent = GlobalScripts
+Dex.AnchorPoint = Vector2.new(0.5, 0.5)
+Dex.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Dex.Position = UDim2.new(0.25, 0, 0.400000006, 0)
+Dex.Size = UDim2.new(0, 200, 0, 50)
+Dex.Visible = false
+Dex.Font = Enum.Font.Gotham
+Dex.Text = "Dark v2"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 15)
+UICorner_8.Parent = Dex
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = GlobalScripts
+OwlHub.AnchorPoint = Vector2.new(0.5, 0.5)
+OwlHub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+OwlHub.Position = UDim2.new(0.75, 0, 0.400000006, 0)
+OwlHub.Size = UDim2.new(0, 200, 0, 50)
+OwlHub.Visible = false
+OwlHub.Font = Enum.Font.Gotham
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 14.000
+OwlHub.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 15)
+UICorner_9.Parent = OwlHub
+
+RevizAdmin.Name = "RevizAdmin"
+RevizAdmin.Parent = GlobalScripts
+RevizAdmin.AnchorPoint = Vector2.new(0.5, 0.5)
+RevizAdmin.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+RevizAdmin.Position = UDim2.new(0.25, 0, 0.600000024, 0)
+RevizAdmin.Size = UDim2.new(0, 200, 0, 50)
+RevizAdmin.Visible = false
+RevizAdmin.Font = Enum.Font.Gotham
+RevizAdmin.Text = "Reviz Admin"
+RevizAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+RevizAdmin.TextSize = 14.000
+RevizAdmin.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = RevizAdmin
+
+ClickTP.Name = "ClickTP"
+ClickTP.Parent = GlobalScripts
+ClickTP.AnchorPoint = Vector2.new(0.5, 0.5)
+ClickTP.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ClickTP.Position = UDim2.new(0.75, 0, 0.600000024, 0)
+ClickTP.Size = UDim2.new(0, 200, 0, 50)
+ClickTP.Visible = false
+ClickTP.Font = Enum.Font.Gotham
+ClickTP.Text = "Click TP Tool"
+ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickTP.TextSize = 14.000
+ClickTP.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 15)
+UICorner_11.Parent = ClickTP
+
+Intro.Name = "Intro"
+Intro.Parent = ExploitGui
+Intro.AnchorPoint = Vector2.new(0.5, 0.5)
+Intro.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Intro.Position = UDim2.new(0.5, 0, 0.5, 0)
+
+UICorner_12.CornerRadius = UDim.new(0, 800)
+UICorner_12.Parent = Intro
+
+Title_3.Name = "Title"
+Title_3.Parent = Intro
+Title_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Title_3.Size = UDim2.new(0.899999976, 0, 1, 0)
+Title_3.Font = Enum.Font.GothamBlack
+Title_3.Text = "DazHub"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+VIP.Name = "VIP"
+VIP.Parent = ExploitGui
+VIP.AnchorPoint = Vector2.new(0.5, 0.5)
+VIP.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+VIP.Position = UDim2.new(0.165000007, 0, 0.805000007, 0)
+VIP.Size = UDim2.new(0, 500, 0, 300)
+VIP.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 20)
+UICorner_13.Parent = VIP
+
+Title_4.Name = "Title"
+Title_4.Parent = VIP
+Title_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+Title_4.Size = UDim2.new(0, 200, 0, 30)
+Title_4.Font = Enum.Font.GothamBlack
+Title_4.Text = "DazHub VIP"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextScaled = true
+Title_4.TextSize = 14.000
+Title_4.TextWrapped = true
+
+Version_2.Name = "Version"
+Version_2.Parent = Title_4
+Version_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.BackgroundTransparency = 1.000
+Version_2.Position = UDim2.new(0.5, 0, 1.10000002, 0)
+Version_2.Size = UDim2.new(0, 200, 0, 10)
+Version_2.Font = Enum.Font.Gotham
+Version_2.Text = "v0.1.0"
+Version_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.TextScaled = true
+Version_2.TextSize = 14.000
+Version_2.TextWrapped = true
+
+MadeBy_2.Name = "MadeBy"
+MadeBy_2.Parent = VIP
+MadeBy_2.AnchorPoint = Vector2.new(0.5, 0.5)
+MadeBy_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy_2.BackgroundTransparency = 1.000
+MadeBy_2.Position = UDim2.new(0.5, 0, 0.975000024, 0)
+MadeBy_2.Size = UDim2.new(0, 300, 0, 12)
+MadeBy_2.Font = Enum.Font.Gotham
+MadeBy_2.Text = "Made By Daz | discord.gg/qF6ntmTH8c"
+MadeBy_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy_2.TextScaled = true
+MadeBy_2.TextSize = 14.000
+MadeBy_2.TextWrapped = true
+
+Games_2.Name = "Games"
+Games_2.Parent = VIP
+
+PrisonLife_2.Name = "PrisonLife"
+PrisonLife_2.Parent = Games_2
+PrisonLife_2.AnchorPoint = Vector2.new(0.5, 0.5)
+PrisonLife_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PrisonLife_2.Position = UDim2.new(0.25, 0, 0.400000006, 0)
+PrisonLife_2.Size = UDim2.new(0, 200, 0, 50)
+PrisonLife_2.Font = Enum.Font.Gotham
+PrisonLife_2.Text = "Prison Life"
+PrisonLife_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife_2.TextSize = 14.000
+PrisonLife_2.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 15)
+UICorner_14.Parent = PrisonLife_2
+
+Arsenal_2.Name = "Arsenal"
+Arsenal_2.Parent = Games_2
+Arsenal_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Arsenal_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Arsenal_2.Position = UDim2.new(0.75, 0, 0.400000006, 0)
+Arsenal_2.Size = UDim2.new(0, 200, 0, 50)
+Arsenal_2.Font = Enum.Font.Gotham
+Arsenal_2.Text = "Arsenal"
+Arsenal_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal_2.TextSize = 14.000
+Arsenal_2.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 15)
+UICorner_15.Parent = Arsenal_2
+
+GamesTitle_2.Name = "GamesTitle"
+GamesTitle_2.Parent = Games_2
+GamesTitle_2.AnchorPoint = Vector2.new(0.5, 0.5)
+GamesTitle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle_2.BackgroundTransparency = 1.000
+GamesTitle_2.Position = UDim2.new(0.5, 0, 0.224999994, 0)
+GamesTitle_2.Size = UDim2.new(0, 200, 0, 25)
+GamesTitle_2.Font = Enum.Font.GothamBold
+GamesTitle_2.Text = "Games"
+GamesTitle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle_2.TextScaled = true
+GamesTitle_2.TextSize = 14.000
+GamesTitle_2.TextWrapped = true
+
+RightArrow_2.Name = "RightArrow"
+RightArrow_2.Parent = Games_2
+RightArrow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+RightArrow_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+RightArrow_2.BackgroundTransparency = 1.000
+RightArrow_2.Position = UDim2.new(0.75, 0, 0.224999994, 0)
+RightArrow_2.Size = UDim2.new(0, 25, 0, 25)
+RightArrow_2.Font = Enum.Font.GothamBold
+RightArrow_2.Text = ">"
+RightArrow_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+RightArrow_2.TextScaled = true
+RightArrow_2.TextSize = 14.000
+RightArrow_2.TextWrapped = true
+
+SharkBite_2.Name = "SharkBite"
+SharkBite_2.Parent = Games_2
+SharkBite_2.AnchorPoint = Vector2.new(0.5, 0.5)
+SharkBite_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SharkBite_2.Position = UDim2.new(0.75, 0, 0.800000012, 0)
+SharkBite_2.Size = UDim2.new(0, 200, 0, 50)
+SharkBite_2.Font = Enum.Font.Gotham
+SharkBite_2.Text = "Sharkbite"
+SharkBite_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SharkBite_2.TextSize = 14.000
+SharkBite_2.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 15)
+UICorner_16.Parent = SharkBite_2
+
+SaberSim_2.Name = "SaberSim"
+SaberSim_2.Parent = Games_2
+SaberSim_2.AnchorPoint = Vector2.new(0.5, 0.5)
+SaberSim_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SaberSim_2.Position = UDim2.new(0.25, 0, 0.800000012, 0)
+SaberSim_2.Size = UDim2.new(0, 200, 0, 50)
+SaberSim_2.Font = Enum.Font.Gotham
+SaberSim_2.Text = "Saber Sim"
+SaberSim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaberSim_2.TextSize = 14.000
+SaberSim_2.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 15)
+UICorner_17.Parent = SaberSim_2
+
+FTF_2.Name = "FTF"
+FTF_2.Parent = Games_2
+FTF_2.AnchorPoint = Vector2.new(0.5, 0.5)
+FTF_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+FTF_2.Position = UDim2.new(0.75, 0, 0.600000024, 0)
+FTF_2.Size = UDim2.new(0, 200, 0, 50)
+FTF_2.Font = Enum.Font.Gotham
+FTF_2.Text = "Flee The Facility"
+FTF_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FTF_2.TextSize = 14.000
+FTF_2.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 15)
+UICorner_18.Parent = FTF_2
+
+MM2_2.Name = "MM2"
+MM2_2.Parent = Games_2
+MM2_2.AnchorPoint = Vector2.new(0.5, 0.5)
+MM2_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+MM2_2.Position = UDim2.new(0.25, 0, 0.600000024, 0)
+MM2_2.Size = UDim2.new(0, 200, 0, 50)
+MM2_2.Font = Enum.Font.Gotham
+MM2_2.Text = "MM2"
+MM2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2_2.TextSize = 14.000
+MM2_2.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 15)
+UICorner_19.Parent = MM2_2
+
+GlobalScripts_2.Name = "GlobalScripts"
+GlobalScripts_2.Parent = VIP
+
+Title_5.Name = "Title"
+Title_5.Parent = GlobalScripts_2
+Title_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.Position = UDim2.new(0.5, 0, 0.224999994, 0)
+Title_5.Size = UDim2.new(0, 200, 0, 25)
+Title_5.Visible = false
+Title_5.Font = Enum.Font.GothamBold
+Title_5.Text = "Global Scripts"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextScaled = true
+Title_5.TextSize = 14.000
+Title_5.TextWrapped = true
+
+LeftArrow_2.Name = "LeftArrow"
+LeftArrow_2.Parent = GlobalScripts_2
+LeftArrow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+LeftArrow_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LeftArrow_2.BackgroundTransparency = 1.000
+LeftArrow_2.Position = UDim2.new(0.25, 0, 0.224999994, 0)
+LeftArrow_2.Size = UDim2.new(0, 25, 0, 25)
+LeftArrow_2.Visible = false
+LeftArrow_2.Font = Enum.Font.GothamBold
+LeftArrow_2.Text = "<"
+LeftArrow_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LeftArrow_2.TextScaled = true
+LeftArrow_2.TextSize = 14.000
+LeftArrow_2.TextWrapped = true
+
+Dex_2.Name = "Dex"
+Dex_2.Parent = GlobalScripts_2
+Dex_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Dex_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Dex_2.Position = UDim2.new(0.25, 0, 0.400000006, 0)
+Dex_2.Size = UDim2.new(0, 200, 0, 50)
+Dex_2.Visible = false
+Dex_2.Font = Enum.Font.Gotham
+Dex_2.Text = "Dark Dex"
+Dex_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex_2.TextSize = 14.000
+Dex_2.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 15)
+UICorner_20.Parent = Dex_2
+
+OwlHub_2.Name = "OwlHub"
+OwlHub_2.Parent = GlobalScripts_2
+OwlHub_2.AnchorPoint = Vector2.new(0.5, 0.5)
+OwlHub_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+OwlHub_2.Position = UDim2.new(0.75, 0, 0.400000006, 0)
+OwlHub_2.Size = UDim2.new(0, 200, 0, 50)
+OwlHub_2.Visible = false
+OwlHub_2.Font = Enum.Font.Gotham
+OwlHub_2.Text = "Owl Hub"
+OwlHub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub_2.TextSize = 14.000
+OwlHub_2.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 15)
+UICorner_21.Parent = OwlHub_2
+
+RevizAdmin_2.Name = "RevizAdmin"
+RevizAdmin_2.Parent = GlobalScripts_2
+RevizAdmin_2.AnchorPoint = Vector2.new(0.5, 0.5)
+RevizAdmin_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+RevizAdmin_2.Position = UDim2.new(0.25, 0, 0.600000024, 0)
+RevizAdmin_2.Size = UDim2.new(0, 200, 0, 50)
+RevizAdmin_2.Visible = false
+RevizAdmin_2.Font = Enum.Font.Gotham
+RevizAdmin_2.Text = "Reviz Admin"
+RevizAdmin_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+RevizAdmin_2.TextSize = 14.000
+RevizAdmin_2.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 15)
+UICorner_22.Parent = RevizAdmin_2
+
+ClickTP_2.Name = "ClickTP"
+ClickTP_2.Parent = GlobalScripts_2
+ClickTP_2.AnchorPoint = Vector2.new(0.5, 0.5)
+ClickTP_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ClickTP_2.Position = UDim2.new(0.75, 0, 0.600000024, 0)
+ClickTP_2.Size = UDim2.new(0, 200, 0, 50)
+ClickTP_2.Visible = false
+ClickTP_2.Font = Enum.Font.Gotham
+ClickTP_2.Text = "Click TP Tool"
+ClickTP_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickTP_2.TextSize = 14.000
+ClickTP_2.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 15)
+UICorner_23.Parent = ClickTP_2
+
+Minimise.Name = "Minimise"
+Minimise.Parent = ExploitGui
+Minimise.AnchorPoint = Vector2.new(0.5, 0.5)
+Minimise.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimise.BackgroundTransparency = 1.000
+Minimise.Position = UDim2.new(0.0148963723, 0, 0.643623352, 0)
+Minimise.Size = UDim2.new(0, 37, 0, 30)
+Minimise.Visible = false
+Minimise.ZIndex = 2
+Minimise.Font = Enum.Font.GothamBlack
+Minimise.Text = "-"
+Minimise.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimise.TextScaled = true
+Minimise.TextSize = 14.000
+Minimise.TextWrapped = true
+
+MinimiseVIP.Name = "MinimiseVIP"
+MinimiseVIP.Parent = ExploitGui
+MinimiseVIP.AnchorPoint = Vector2.new(0.5, 0.5)
+MinimiseVIP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MinimiseVIP.BackgroundTransparency = 1.000
+MinimiseVIP.Position = UDim2.new(0.0148963723, 0, 0.643623352, 0)
+MinimiseVIP.Size = UDim2.new(0, 37, 0, 30)
+MinimiseVIP.ZIndex = 2
+MinimiseVIP.Font = Enum.Font.GothamBlack
+MinimiseVIP.Text = "-"
+MinimiseVIP.TextColor3 = Color3.fromRGB(255, 255, 255)
+MinimiseVIP.TextScaled = true
+MinimiseVIP.TextSize = 14.000
+MinimiseVIP.TextWrapped = true
+
+-- Scripts:
+
+local function RYECFT_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	function dragify(Frame)
+		local dragToggle = nil
+		local dragSpeed = .25
+		local dragInput = nil
+		local dragStart = nil
+		local dragPos = nil
+	
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+		end
+	
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if (input.UserInputState == Enum.UserInputState.End) then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+	
+		Frame.InputChanged:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+				dragInput = input
+			end
+		end)
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if (input == dragInput and dragToggle) then
+				updateInput(input)
+			end
+		end)
+	end
+	dragify(script.Parent)
+end
+coroutine.wrap(RYECFT_fake_script)()
+local function WWPLLTA_fake_script() -- PrisonLife.LocalScript 
+	local script = Instance.new('LocalScript', PrisonLife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Main
+		local PrisonLifeGui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+		local Drag = Instance.new("Frame")
+		local Title = Instance.new("TextLabel")
+		local Close = Instance.new("TextButton")
+		local Open = Instance.new("TextButton")
+		local Body = Instance.new("ScrollingFrame")
+		local Scroll = Instance.new("ScrollingFrame")
+		-- Pages
+		local WelcomePage = Instance.new("Frame")
+		local WeaponsPage = Instance.new("Frame")
+		local TeleportPage = Instance.new("ScrollingFrame")
+		local DoorPage = Instance.new("Frame")
+		local KillAuraPage = Instance.new("Frame")
+		local CarTelePage = Instance.new("Frame")
+		-- Side Buttons
+		local WeaponsButton = Instance.new("TextButton")
+		local TeleportButton = Instance.new("TextButton")
+		local DoorButton = Instance.new("TextButton")
+		local KillButton = Instance.new("TextButton")
+		local CarButton = Instance.new("TextButton")
+		-- Welcome Page Contents
+		local Welcome = Instance.new("TextLabel")
+		local Credits = Instance.new("TextLabel")
+		local Credit2 = Instance.new("TextLabel")
+		local TxtWall = Instance.new("TextLabel")
+		local CredPic = Instance.new("ImageLabel")
+		-- Weapon Page Contents
+		local WepTut = Instance.new("TextLabel")
+		local WepTxtWall = Instance.new("TextLabel")
+		local WepTutSep = Instance.new("Frame")
+		local WepButt1 = Instance.new("TextButton")
+		local WepButt2 = Instance.new("TextButton")
+		local WepButt3 = Instance.new("TextButton")
+		local WepButt4 = Instance.new("TextButton")
+		-- Door Page Contents
+		local DoorTut = Instance.new("TextLabel")
+		local DoorTxtWall = Instance.new("TextLabel")
+		local DoorPageSep = Instance.new("Frame")
+		local DoorButt = Instance.new("TextButton")
+		-- Teleport Page Contents
+		local TeleTut = Instance.new("TextLabel")
+		local TeleTxtWall = Instance.new("TextLabel")
+		local TeleButt1 = Instance.new("TextButton")
+		local TeleButt2 = Instance.new("TextButton")
+		local TeleButt3 = Instance.new("TextButton")
+		local TeleButt4 = Instance.new("TextButton")
+		local TeleButt5 = Instance.new("TextButton")
+		local TeleButt6 = Instance.new("TextButton")
+		local TeleButt7 = Instance.new("TextButton")
+		local TeleButt8 = Instance.new("TextButton")
+		local TeleButt9 = Instance.new("TextButton")
+		local TeleButt10 = Instance.new("TextButton")
+		-- Kill Aura Page Contents
+		local KillTut = Instance.new("TextLabel")
+		local KillTxtWall = Instance.new("TextLabel")
+		local KillPageSep = Instance.new("Frame")
+		local KillButt = Instance.new("TextButton")
+		-- Car Teleport Page Contents
+		local CarTut = Instance.new("TextLabel")
+		local CarTxtWall = Instance.new("TextLabel")
+		local CarPageSep = Instance.new("Frame")
+		local CarTeleButt1 = Instance.new("TextButton")
+		local CarTeleButt2 = Instance.new("TextButton")
+		-- Main
+	
+		Drag.Active = true
+		Drag.Name = "Drag"
+		Drag.Parent = PrisonLifeGui
+		Drag.BackgroundColor3 = Color3.new(0/255, 105/255, 154/255)
+		Drag.BackgroundTransparency = 0
+		Drag.BorderSizePixel = 0
+		Drag.Position = UDim2.new(0, 0, 0, 0)
+		Drag.Selectable = true
+		Drag.Draggable = true
+		Drag.Size = UDim2.new(0, 300, 0, 35)
+	
+		Title.Parent = Drag
+		Title.Name = "Title"
+		Title.BackgroundTransparency = 1
+		Title.BorderSizePixel = 0
+		Title.Position = UDim2.new(0, 30, 0, 0)
+		Title.Size = UDim2.new(0, 225, 0, 35)
+		Title.Font = "SourceSansBold"
+		Title.TextColor3 = Color3.new(255, 255, 255)
+		Title.Text = "Prison Life GUI [Revamp]"
+		Title.TextSize = 26
+	
+		Close.Parent = Drag
+		Close.Name = "Close"
+		Close.BackgroundTransparency = 1
+		Close.BorderSizePixel = 0
+		Close.Position = UDim2.new(0, 265, 0, 0)
+		Close.Size = UDim2.new(0, 35, 0, 35)
+		Close.Font = "SourceSansBold"
+		Close.TextColor3 = Color3.new(255, 255, 255)
+		Close.Text = "X"
+		Close.TextSize = 28
+		Close.MouseButton1Down:connect(function()
+			Body:TweenSize(UDim2.new(1,0,0,0), 'In', 'Quad', 0.5, false)
+			wait(0.5)
+			Close.Visible = false
+			Open.Visible = true
+		end)
+	
+		Open.Parent = Drag
+		Open.Visible = false
+		Open.Name = "Open"
+		Open.BackgroundTransparency = 1
+		Open.BorderSizePixel = 0
+		Open.Position = UDim2.new(0, 265, 0, 0)
+		Open.Size = UDim2.new(0, 35, 0, 35)
+		Open.Font = "SourceSansBold"
+		Open.TextColor3 = Color3.new(255, 255, 255)
+		Open.Text = "+"
+		Open.TextSize = 28
+		Open.MouseButton1Down:connect(function()
+			Body:TweenSize(UDim2.new(0,300,0,235), 'Out', 'Bounce', 2, false)
+			wait(0.5)
+			Close.Visible = true
+			Open.Visible = false
+		end)
+	
+		Body.Parent = Drag
+		Body.Name = "Body"
+		Body.BackgroundColor3 = Color3.new(0/255, 85/255, 127/255)
+		Body.BackgroundTransparency = 0
+		Body.BorderSizePixel = 0
+		Body.Position = UDim2.new(0, 0, 0, 35)
+		Body.Size = UDim2.new(0, 300, 0, 235)
+		Body.ScrollingEnabled = false
+		Body.ScrollBarThickness = 0
+	
+		Scroll.Parent = Body
+		Scroll.Name = "Scroll"
+		Scroll.BackgroundTransparency = 1
+		Scroll.BorderSizePixel = 0
+		Scroll.Position = UDim2.new(0, 0, 0, 0)
+		Scroll.Size = UDim2.new(0, 110, 0, 235)
+		Scroll.CanvasSize = UDim2.new(0, 0, 2, 0)
+	
+		-- Pages
+	
+		WelcomePage.Parent = Body
+		WelcomePage.Visible = true
+		WelcomePage.Name = "WelcomePage"
+		WelcomePage.BackgroundTransparency = 1
+		WelcomePage.BorderSizePixel = 0
+		WelcomePage.Position = UDim2.new(0, 115, 0, 0)
+		WelcomePage.Size = UDim2.new(0, 180, 0, 235)
+	
+		WeaponsPage.Parent = Body
+		WeaponsPage.Visible = false
+		WeaponsPage.Name = "WeaponsPage"
+		WeaponsPage.BackgroundTransparency = 1
+		WeaponsPage.BorderSizePixel = 0
+		WeaponsPage.Position = UDim2.new(0, 115, 0, 0)
+		WeaponsPage.Size = UDim2.new(0, 180, 0, 235)
+	
+		TeleportPage.Parent = Body
+		TeleportPage.Visible = false
+		TeleportPage.Name = "TeleportPage"
+		TeleportPage.BackgroundTransparency = 1
+		TeleportPage.BorderSizePixel = 0
+		TeleportPage.Position = UDim2.new(0, 115, 0, 0)
+		TeleportPage.Size = UDim2.new(0, 180, 0, 235)
+		TeleportPage.CanvasSize = UDim2.new(0, 0, 2.5, 0)
+	
+		DoorPage.Parent = Body
+		DoorPage.Visible = false
+		DoorPage.Name = "DoorPage"
+		DoorPage.BackgroundTransparency = 1
+		DoorPage.BorderSizePixel = 0
+		DoorPage.Position = UDim2.new(0, 115, 0, 0)
+		DoorPage.Size = UDim2.new(0, 180, 0, 235)
+	
+		KillAuraPage.Parent = Body
+		KillAuraPage.Visible = false
+		KillAuraPage.Name = "KillAuraPage"
+		KillAuraPage.BackgroundTransparency = 1
+		KillAuraPage.BorderSizePixel = 0
+		KillAuraPage.Position = UDim2.new(0, 115, 0, 0)
+		KillAuraPage.Size = UDim2.new(0, 180, 0, 235)
+	
+		CarTelePage.Parent = Body
+		CarTelePage.Visible = false
+		CarTelePage.Name = "CarTelePage"
+		CarTelePage.BackgroundTransparency = 1
+		CarTelePage.BorderSizePixel = 0
+		CarTelePage.Position = UDim2.new(0, 115, 0, 0)
+		CarTelePage.Size = UDim2.new(0, 180, 0, 235)
+	
+		-- Buttons
+	
+		WeaponsButton.Parent = Scroll
+		WeaponsButton.Name = "WeaponsButton"
+		WeaponsButton.BackgroundTransparency = 1
+		WeaponsButton.BorderSizePixel = 0
+		WeaponsButton.Position = UDim2.new(0, 5, 0, 5)
+		WeaponsButton.Size = UDim2.new(0, 85, 0, 35)
+		WeaponsButton.Font = "SourceSansBold"
+		WeaponsButton.TextColor3 = Color3.new(255, 255, 255)
+		WeaponsButton.Text = "Weapons"
+		WeaponsButton.TextSize = 24
+		WeaponsButton.Style = "RobloxRoundButton"
+		WeaponsButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = true
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		TeleportButton.Parent = Scroll
+		TeleportButton.Name = "TeleportButton"
+		TeleportButton.BackgroundTransparency = 1
+		TeleportButton.BorderSizePixel = 0
+		TeleportButton.Position = UDim2.new(0, 5, 0, 45)
+		TeleportButton.Size = UDim2.new(0, 85, 0, 35)
+		TeleportButton.Font = "SourceSansBold"
+		TeleportButton.TextColor3 = Color3.new(255, 255, 255)
+		TeleportButton.Text = "Teleports"
+		TeleportButton.TextSize = 22
+		TeleportButton.Style = "RobloxRoundButton"
+		TeleportButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = true
+			DoorPage.Visible = false
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		DoorButton.Parent = Scroll
+		DoorButton.Name = "DoorButton"
+		DoorButton.BackgroundTransparency = 1
+		DoorButton.BorderSizePixel = 0
+		DoorButton.Position = UDim2.new(0, 5, 0, 85)
+		DoorButton.Size = UDim2.new(0, 85, 0, 35)
+		DoorButton.Font = "SourceSansBold"
+		DoorButton.TextColor3 = Color3.new(255, 255, 255)
+		DoorButton.Text = "Remove Doors"
+		DoorButton.TextSize = 14
+		DoorButton.Style = "RobloxRoundButton"
+		DoorButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = true
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		KillButton.Parent = Scroll
+		KillButton.Name = "KillButton"
+		KillButton.BackgroundTransparency = 1
+		KillButton.BorderSizePixel = 0
+		KillButton.Position = UDim2.new(0, 5, 0, 125)
+		KillButton.Size = UDim2.new(0, 85, 0, 35)
+		KillButton.Font = "SourceSansBold"
+		KillButton.TextColor3 = Color3.new(255, 255, 255)
+		KillButton.Text = "Kill Aura"
+		KillButton.TextSize = 23
+		KillButton.Style = "RobloxRoundButton"
+		KillButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			KillAuraPage.Visible = true
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		CarButton.Parent = Scroll
+		CarButton.Name = "CarButton"
+		CarButton.BackgroundTransparency = 1
+		CarButton.BorderSizePixel = 0
+		CarButton.Position = UDim2.new(0, 5, 0, 165)
+		CarButton.Size = UDim2.new(0, 85, 0, 35)
+		CarButton.Font = "SourceSansBold"
+		CarButton.TextColor3 = Color3.new(255, 255, 255)
+		CarButton.Text = "Vehicles"
+		CarButton.TextSize = 23
+		CarButton.Style = "RobloxRoundButton"
+		CarButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = true
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		-- Welcome Page Contents
+	
+		Welcome.Parent = WelcomePage
+		Welcome.Name = "Welcome"
+		Welcome.BackgroundTransparency = 1
+		Welcome.BorderSizePixel = 0
+		Welcome.Position = UDim2.new(0, 0, 0, 0)
+		Welcome.Size = UDim2.new(0, 180, 0, 35)
+		Welcome.Font = "SourceSansBold"
+		Welcome.TextColor3 = Color3.new(255, 255, 255)
+		Welcome.Text = "Welcome!"
+		Welcome.TextSize = 38
+	
+		Credits.Parent = WelcomePage
+		Credits.Name = "Credits"
+		Credits.BackgroundTransparency = 1
+		Credits.BorderSizePixel = 0
+		Credits.Position = UDim2.new(0, 0, 0, 35)
+		Credits.Size = UDim2.new(0, 180, 0, 25)
+		Credits.Font = "SourceSansBold"
+		Credits.TextColor3 = Color3.new(170/255, 0/255, 0/255)
+		Credits.Text = "Credits to all creators!"
+		Credits.TextSize = 18
+	
+		Credit2.Parent = WelcomePage
+		Credit2.Name = "Credit2"
+		Credit2.BackgroundTransparency = 1
+		Credit2.BorderSizePixel = 0
+		Credit2.Position = UDim2.new(0, 0, 0, 185)
+		Credit2.Size = UDim2.new(0, 135, 0, 35)
+		Credit2.Font = "SourceSansBold"
+		Credit2.TextColor3 = Color3.new(0, 255, 0)
+		Credit2.Text = "UI Created By"
+		Credit2.TextSize = 28
+	
+		TxtWall.Parent = WelcomePage
+		TxtWall.Name = "TxtWall"
+		TxtWall.BackgroundTransparency = 1
+		TxtWall.BorderSizePixel = 0
+		TxtWall.Position = UDim2.new(0, 0, 0, 65)
+		TxtWall.Size = UDim2.new(0, 180, 0, 120)
+		TxtWall.Font = "SourceSansBold"
+		TxtWall.TextColor3 = Color3.new(255, 255, 255)
+		TxtWall.Text = "I made this GUI because I saw the original GUI, which looked like absolute shit."
+		TxtWall.TextSize = 24
+		TxtWall.TextWrapped = true
+	
+		CredPic.Parent = Credit2
+		CredPic.Name = "CredPic"
+		CredPic.BackgroundTransparency = 1
+		CredPic.BorderSizePixel = 0
+		CredPic.Position = UDim2.new(0, 125, 0, -5)
+		CredPic.Size = UDim2.new(0, 55, 0, 50)
+		CredPic.Image = "rbxassetid://643508583"
+	
+		-- Weapons Page Contents
+	
+		WepTut.BackgroundTransparency = 1
+		WepTut.Size = UDim2.new(0, 180, 0, 35)
+		WepTut.Font = "SourceSansBold"
+		WepTut.Text = "Tutorial"
+		WepTut.TextColor3 = Color3.new(1, 1, 1)
+		WepTut.TextSize = 28
+		WepTut.Parent = WeaponsPage
+	
+		WepTxtWall.BackgroundTransparency = 1
+		WepTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		WepTxtWall.Size = UDim2.new(0, 180, 0, 75)
+		WepTxtWall.Font = Enum.Font.SourceSansBold
+		WepTxtWall.Text = "Click on the guns that you want to appear. If you're new to this, click on the weapon to equip it."
+		WepTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		WepTxtWall.TextWrapped = true
+		WepTxtWall.TextSize = 18
+		WepTxtWall.Parent = WepTut
+		WepTutSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		WepTutSep.BorderSizePixel = 0
+		WepTutSep.Position = UDim2.new(0, 15, 0, 115)
+		WepTutSep.Size = UDim2.new(0, 150, 0, 1)
+		WepTutSep.Parent = WeaponsPage
+	
+		WepButt1.Active = true
+		WepButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt1.Position = UDim2.new(0, 5, 0, 125)
+		WepButt1.Selectable = true
+		WepButt1.Size = UDim2.new(0, 80, 0, 35)
+		WepButt1.Font = "SourceSansBold"
+		WepButt1.Text = "AK-47"
+		WepButt1.TextColor3 = Color3.new(1, 1, 1)
+		WepButt1.TextSize = 18
+		WepButt1.Parent = WeaponsPage
+		WepButt1.MouseButton1Down:connect(function()
+			local AK47 = {"AK-47"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(AK47) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt2.Active = true
+		WepButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt2.Position = UDim2.new(0, 95, 0, 125)
+		WepButt2.Selectable = true
+		WepButt2.Size = UDim2.new(0, 80, 0, 35)
+		WepButt2.Font = "SourceSansBold"
+		WepButt2.Text = "M9"
+		WepButt2.TextColor3 = Color3.new(1, 1, 1)
+		WepButt2.TextSize = 18
+		WepButt2.Parent = WeaponsPage
+		WepButt2.MouseButton1Down:connect(function()
+			local M9 = {"M9"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M9) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt3.Active = true
+		WepButt3.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt3.Position = UDim2.new(0, 95, 0, 170)
+		WepButt3.Size = UDim2.new(0, 80, 0, 35)
+		WepButt3.Selectable = true
+		WepButt3.Font = "SourceSansBold"
+		WepButt3.Text = "REM 870"
+		WepButt3.TextColor3 = Color3.new(1, 1, 1)
+		WepButt3.TextSize = 18
+		WepButt3.Parent = WeaponsPage
+		WepButt3.MouseButton1Down:connect(function()
+			local Remington870 = {"Remington 870"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(Remington870) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt4.Active = true
+		WepButt4.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt4.Position = UDim2.new(0, 5, 0, 170)
+		WepButt4.Selectable = true
+		WepButt4.Size = UDim2.new(0, 80, 0, 35)
+		WepButt4.Font = "SourceSansBold"
+		WepButt4.Text = "M4A1"
+		WepButt4.TextColor3 = Color3.new(1, 1, 1)
+		WepButt4.TextSize = 18
+		WepButt4.Parent = WeaponsPage
+		WepButt4.MouseButton1Down:connect(function()
+			local M4A1 = {"M4A1"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M4A1) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		-- DoorPage Contents
+	
+		DoorTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTut.BackgroundTransparency = 1
+		DoorTut.Size = UDim2.new(0, 180, 0, 35)
+		DoorTut.Font = "SourceSansBold"
+		DoorTut.Text = "Tutorial"
+		DoorTut.TextColor3 = Color3.new(1, 1, 1)
+		DoorTut.TextSize = 28
+		DoorTut.Parent = DoorPage
+	
+		DoorTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTxtWall.BackgroundTransparency = 1
+		DoorTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		DoorTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		DoorTxtWall.Font = "SourceSansBold"
+		DoorTxtWall.Text = "When activated, all doors in the prison will be destroyed. Remember, since Prison Life is FE, the destroyed doors only work for YOU."
+		DoorTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		DoorTxtWall.TextSize = 18
+		DoorTxtWall.TextWrapped = true
+		DoorTxtWall.Parent = DoorTut
+	
+		DoorPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		DoorPageSep.BorderSizePixel = 0
+		DoorPageSep.Position = UDim2.new(0, 15, 0, 155)
+		DoorPageSep.Size = UDim2.new(0, 150, 0, 1)
+		DoorPageSep.Parent = DoorPage
+	
+		DoorButt.Active = true
+		DoorButt.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		DoorButt.Position = UDim2.new(0, 5, 0, 170)
+		DoorButt.Selectable = true
+		DoorButt.Size = UDim2.new(0, 170, 0, 50)
+		DoorButt.Font = "SourceSansBold"
+		DoorButt.Text = "Remove Doors"
+		DoorButt.TextColor3 = Color3.new(1, 1, 1)
+		DoorButt.TextSize = 24
+		DoorButt.Parent = DoorPage
+	
+		-- Buttons
+	
+		WeaponsButton.Parent = Scroll
+		WeaponsButton.Name = "WeaponsButton"
+		WeaponsButton.BackgroundTransparency = 1
+		WeaponsButton.BorderSizePixel = 0
+		WeaponsButton.Position = UDim2.new(0, 5, 0, 5)
+		WeaponsButton.Size = UDim2.new(0, 85, 0, 35)
+		WeaponsButton.Font = "SourceSansBold"
+		WeaponsButton.TextColor3 = Color3.new(255, 255, 255)
+		WeaponsButton.Text = "Weapons"
+		WeaponsButton.TextSize = 24
+		WeaponsButton.Style = "RobloxRoundButton"
+		WeaponsButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = true
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		TeleportButton.Parent = Scroll
+		TeleportButton.Name = "TeleportButton"
+		TeleportButton.BackgroundTransparency = 1
+		TeleportButton.BorderSizePixel = 0
+		TeleportButton.Position = UDim2.new(0, 5, 0, 45)
+		TeleportButton.Size = UDim2.new(0, 85, 0, 35)
+		TeleportButton.Font = "SourceSansBold"
+		TeleportButton.TextColor3 = Color3.new(255, 255, 255)
+		TeleportButton.Text = "Teleports"
+		TeleportButton.TextSize = 22
+		TeleportButton.Style = "RobloxRoundButton"
+		TeleportButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = true
+			DoorPage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		DoorButton.Parent = Scroll
+		DoorButton.Name = "DoorButton"
+		DoorButton.BackgroundTransparency = 1
+		DoorButton.BorderSizePixel = 0
+		DoorButton.Position = UDim2.new(0, 5, 0, 85)
+		DoorButton.Size = UDim2.new(0, 85, 0, 35)
+		DoorButton.Font = "SourceSansBold"
+		DoorButton.TextColor3 = Color3.new(255, 255, 255)
+		DoorButton.Text = "Remove Doors"
+		DoorButton.TextSize = 14
+		DoorButton.Style = "RobloxRoundButton"
+		DoorButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = true
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		-- Welcome Page Contents
+	
+		Welcome.Parent = WelcomePage
+		Welcome.Name = "Welcome"
+		Welcome.BackgroundTransparency = 1
+		Welcome.BorderSizePixel = 0
+		Welcome.Position = UDim2.new(0, 0, 0, 0)
+		Welcome.Size = UDim2.new(0, 180, 0, 35)
+		Welcome.Font = "SourceSansBold"
+		Welcome.TextColor3 = Color3.new(255, 255, 255)
+		Welcome.Text = "Welcome!"
+		Welcome.TextSize = 38
+	
+		Credits.Parent = WelcomePage
+		Credits.Name = "Credits"
+		Credits.BackgroundTransparency = 1
+		Credits.BorderSizePixel = 0
+		Credits.Position = UDim2.new(0, 0, 0, 35)
+		Credits.Size = UDim2.new(0, 180, 0, 25)
+		Credits.Font = "SourceSansBold"
+		Credits.TextColor3 = Color3.new(170/255, 0/255, 0/255)
+		Credits.Text = "Credits to all creators!"
+		Credits.TextSize = 18
+	
+		Credit2.Parent = WelcomePage
+		Credit2.Name = "Credit2"
+		Credit2.BackgroundTransparency = 1
+		Credit2.BorderSizePixel = 0
+		Credit2.Position = UDim2.new(0, 0, 0, 185)
+		Credit2.Size = UDim2.new(0, 135, 0, 35)
+		Credit2.Font = "SourceSansBold"
+		Credit2.TextColor3 = Color3.new(0, 255, 0)
+		Credit2.Text = "UI Created By"
+		Credit2.TextSize = 28
+	
+		TxtWall.Parent = WelcomePage
+		TxtWall.Name = "TxtWall"
+		TxtWall.BackgroundTransparency = 1
+		TxtWall.BorderSizePixel = 0
+		TxtWall.Position = UDim2.new(0, 0, 0, 65)
+		TxtWall.Size = UDim2.new(0, 180, 0, 120)
+		TxtWall.Font = "SourceSansBold"
+		TxtWall.TextColor3 = Color3.new(255, 255, 255)
+		TxtWall.Text = "I made this GUI because I saw the original GUI, which looked like absolute shit."
+		TxtWall.TextSize = 24
+		TxtWall.TextWrapped = true
+	
+		CredPic.Parent = Credit2
+		CredPic.Name = "CredPic"
+		CredPic.BackgroundTransparency = 1
+		CredPic.BorderSizePixel = 0
+		CredPic.Position = UDim2.new(0, 125, 0, -5)
+		CredPic.Size = UDim2.new(0, 55, 0, 50)
+		CredPic.Image = "rbxassetid://643508583"
+	
+		-- Weapons Page Contents
+	
+		WepTut.BackgroundTransparency = 1
+		WepTut.Size = UDim2.new(0, 180, 0, 35)
+		WepTut.Font = "SourceSansBold"
+		WepTut.Text = "Tutorial"
+		WepTut.TextColor3 = Color3.new(1, 1, 1)
+		WepTut.TextSize = 28
+		WepTut.Parent = WeaponsPage
+	
+		WepTxtWall.BackgroundTransparency = 1
+		WepTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		WepTxtWall.Size = UDim2.new(0, 180, 0, 75)
+		WepTxtWall.Font = Enum.Font.SourceSansBold
+		WepTxtWall.Text = "Click on the guns that you want to appear. If you're new to this, click on the weapon to equip it."
+		WepTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		WepTxtWall.TextWrapped = true
+		WepTxtWall.TextSize = 18
+		WepTxtWall.Parent = WepTut
+		WepTutSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		WepTutSep.BorderSizePixel = 0
+		WepTutSep.Position = UDim2.new(0, 15, 0, 115)
+		WepTutSep.Size = UDim2.new(0, 150, 0, 1)
+		WepTutSep.Parent = WeaponsPage
+	
+		WepButt1.Active = true
+		WepButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt1.Position = UDim2.new(0, 5, 0, 125)
+		WepButt1.Selectable = true
+		WepButt1.Size = UDim2.new(0, 80, 0, 35)
+		WepButt1.Font = "SourceSansBold"
+		WepButt1.Text = "AK-47"
+		WepButt1.TextColor3 = Color3.new(1, 1, 1)
+		WepButt1.TextSize = 18
+		WepButt1.Parent = WeaponsPage
+		WepButt1.MouseButton1Down:connect(function()
+			local AK47 = {"AK-47"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(AK47) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt2.Active = true
+		WepButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt2.Position = UDim2.new(0, 95, 0, 125)
+		WepButt2.Selectable = true
+		WepButt2.Size = UDim2.new(0, 80, 0, 35)
+		WepButt2.Font = "SourceSansBold"
+		WepButt2.Text = "M9"
+		WepButt2.TextColor3 = Color3.new(1, 1, 1)
+		WepButt2.TextSize = 18
+		WepButt2.Parent = WeaponsPage
+		WepButt2.MouseButton1Down:connect(function()
+			local M9 = {"M9"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M9) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt3.Active = true
+		WepButt3.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt3.Position = UDim2.new(0, 95, 0, 170)
+		WepButt3.Size = UDim2.new(0, 80, 0, 35)
+		WepButt3.Selectable = true
+		WepButt3.Font = "SourceSansBold"
+		WepButt3.Text = "REM 870"
+		WepButt3.TextColor3 = Color3.new(1, 1, 1)
+		WepButt3.TextSize = 18
+		WepButt3.Parent = WeaponsPage
+		WepButt3.MouseButton1Down:connect(function()
+			local Remington870 = {"Remington 870"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(Remington870) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt4.Active = true
+		WepButt4.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt4.Position = UDim2.new(0, 5, 0, 170)
+		WepButt4.Selectable = true
+		WepButt4.Size = UDim2.new(0, 80, 0, 35)
+		WepButt4.Font = "SourceSansBold"
+		WepButt4.Text = "M4A1"
+		WepButt4.TextColor3 = Color3.new(1, 1, 1)
+		WepButt4.TextSize = 18
+		WepButt4.Parent = WeaponsPage
+		WepButt4.MouseButton1Down:connect(function()
+			local M4A1 = {"M4A1"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M4A1) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		-- DoorPage Contents
+	
+		DoorTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTut.BackgroundTransparency = 1
+		DoorTut.Size = UDim2.new(0, 180, 0, 35)
+		DoorTut.Font = "SourceSansBold"
+		DoorTut.Text = "Tutorial"
+		DoorTut.TextColor3 = Color3.new(1, 1, 1)
+		DoorTut.TextSize = 28
+		DoorTut.Parent = DoorPage
+	
+		DoorTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTxtWall.BackgroundTransparency = 1
+		DoorTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		DoorTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		DoorTxtWall.Font = "SourceSansBold"
+		DoorTxtWall.Text = "When activated, all doors in the prison will be destroyed. Remember, since Prison Life is FE, the destroyed doors only work for YOU."
+		DoorTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		DoorTxtWall.TextSize = 18
+		DoorTxtWall.TextWrapped = true
+		DoorTxtWall.Parent = DoorTut
+	
+		DoorPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		DoorPageSep.BorderSizePixel = 0
+		DoorPageSep.Position = UDim2.new(0, 15, 0, 155)
+		DoorPageSep.Size = UDim2.new(0, 150, 0, 1)
+		DoorPageSep.Parent = DoorPage
+	
+		DoorButt.Active = true
+		DoorButt.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		DoorButt.Position = UDim2.new(0, 5, 0, 170)
+		DoorButt.Selectable = true
+		DoorButt.Size = UDim2.new(0, 170, 0, 50)
+		DoorButt.Font = "SourceSansBold"
+		DoorButt.Text = "Remove Doors"
+		DoorButt.TextColor3 = Color3.new(1, 1, 1)
+		DoorButt.TextSize = 24
+		DoorButt.Parent = DoorPage
+		DoorButt.MouseButton1Down:connect(function()
+			game.Workspace.Doors:Destroy()
+		end)
+	
+		-- Teleport Page Contents
+	
+		TeleTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		TeleTut.BackgroundTransparency = 1
+		TeleTut.Size = UDim2.new(0, 180, 0, 35)
+		TeleTut.Font = "SourceSansBold"
+		TeleTut.Text = "Tutorial"
+		TeleTut.TextColor3 = Color3.new(1, 1, 1)
+		TeleTut.TextSize = 28
+		TeleTut.Parent = TeleportPage
+	
+		TeleTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		TeleTxtWall.BackgroundTransparency = 1
+		TeleTxtWall.Parent = TeleTut
+		TeleTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		TeleTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		TeleTxtWall.Font = "SourceSansBold"
+		TeleTxtWall.TextSize = 18
+		TeleTxtWall.Text = "Click on the areas you want to teleport to. They're pretty self explanitory, so I don't think I need to explain further."
+		TeleTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		TeleTxtWall.TextWrapped = true
+	
+		TeleButt1.Active = true
+		TeleButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt1.Position = UDim2.new(0, 22, 0, 170)
+		TeleButt1.Selectable = true
+		TeleButt1.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt1.Font = "SourceSansBold"
+		TeleButt1.Text = "Outside Prison"
+		TeleButt1.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt1.TextSize = 18
+		TeleButt1.Parent = TeleportPage
+		TeleButt1.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.452, 69.999, 2206.731)
+		end)
+	
+		TeleButt2.Active = true
+		TeleButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt2.Position = UDim2.new(0, 22, 0, 210)
+		TeleButt2.Selectable = true
+		TeleButt2.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt2.Font = "SourceSansBold"
+		TeleButt2.Text = "Criminal Inside"
+		TeleButt2.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt2.TextSize = 18
+		TeleButt2.Parent = TeleportPage
+		TeleButt2.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-943.704, 91.632, 2056.925)
+		end)
+	
+		TeleButt3.Active = true
+		TeleButt3.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt3.Position = UDim2.new(0, 22, 0, 250)
+		TeleButt3.Selectable = true
+		TeleButt3.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt3.Font = "SourceSansBold"
+		TeleButt3.Text = "Criminal Outside"
+		TeleButt3.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt3.TextSize = 18
+		TeleButt3.Parent = TeleportPage
+		TeleButt3.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-919.958, 95.327, 2138.189)
+		end)
+	
+		TeleButt4.Active = true
+		TeleButt4.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt4.Position = UDim2.new(0, 22, 0, 290)
+		TeleButt4.Selectable = true
+		TeleButt4.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt4.Font = "SourceSansBold"
+		TeleButt4.Text = "Police Room"
+		TeleButt4.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt4.TextSize = 18
+		TeleButt4.Parent = TeleportPage
+		TeleButt4.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(834.972, 99.989, 2275.318)
+		end)
+	
+		TeleButt5.Active = true
+		TeleButt5.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt5.Position = UDim2.new(0, 22, 0, 330)
+		TeleButt5.Selectable = true
+		TeleButt5.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt5.Font = "SourceSansBold"
+		TeleButt5.Text = "Yard"
+		TeleButt5.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt5.TextSize = 18
+		TeleButt5.Parent = TeleportPage
+		TeleButt5.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(779.092, 96.001, 2451.114)
+		end)
+	
+		TeleButt6.Active = true
+		TeleButt6.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt6.Position = UDim2.new(0, 22, 0, 370)
+		TeleButt6.Selectable = true
+		TeleButt6.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt6.Font = "SourceSansBold"
+		TeleButt6.Text = "Cafeteria"
+		TeleButt6.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt6.TextSize = 18
+		TeleButt6.Parent = TeleportPage
+		TeleButt6.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(930, 97.54, 2291)
+		end)
+	
+		TeleButt7.Active = true
+		TeleButt7.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt7.Position = UDim2.new(0, 22, 0, 410)
+		TeleButt7.Selectable = true
+		TeleButt7.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt7.Font = "SourceSansBold"
+		TeleButt7.Text = "Cells"
+		TeleButt7.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt7.TextSize = 18
+		TeleButt7.Parent = TeleportPage
+		TeleButt7.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918, 97.73, 2447)
+		end)
+	
+		TeleButt8.Active = true
+		TeleButt8.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt8.Position = UDim2.new(0, 22, 0, 450)
+		TeleButt8.Selectable = true
+		TeleButt8.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt8.Font = "SourceSansBold"
+		TeleButt8.Text = "Sewer Enterance"
+		TeleButt8.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt8.TextSize = 18
+		TeleButt8.Parent = TeleportPage
+		TeleButt8.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(917.174, 76.406, 2426.199)
+		end)
+	
+		TeleButt9.Active = true
+		TeleButt9.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt9.Position = UDim2.new(0, 22, 0, 490)
+		TeleButt9.Selectable = true
+		TeleButt9.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt9.Font = "SourceSansBold"
+		TeleButt9.Text = "Sewer Exit"
+		TeleButt9.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt9.TextSize = 18
+		TeleButt9.Parent = TeleportPage
+		TeleButt9.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(916.506, 96.285, 2111.396)
+		end)
+	
+		TeleButt10.Active = true
+		TeleButt10.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt10.Position = UDim2.new(0, 22, 0, 530)
+		TeleButt10.Selectable = true
+		TeleButt10.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt10.Font = "SourceSansBold"
+		TeleButt10.Text = "Secret Room"
+		TeleButt10.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt10.TextSize = 18
+		TeleButt10.Parent = TeleportPage
+		TeleButt10.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(697, 97.492, 2364)
+		end)
+	
+		-- Kill Aura Page Contents
+	
+		KillTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		KillTut.BackgroundTransparency = 1
+		KillTut.Size = UDim2.new(0, 180, 0, 35)
+		KillTut.Font = "SourceSansBold"
+		KillTut.Text = "Tutorial"
+		KillTut.TextColor3 = Color3.new(1, 1, 1)
+		KillTut.TextSize = 28
+		KillTut.Parent = KillAuraPage
+	
+		KillTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		KillTxtWall.BackgroundTransparency = 1
+		KillTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		KillTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		KillTxtWall.Font = "SourceSansBold"
+		KillTxtWall.Text = "When activated, everybody you walk close to will be killed. To turn this off, simply click the button again."
+		KillTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		KillTxtWall.TextSize = 18
+		KillTxtWall.TextWrapped = true
+		KillTxtWall.Parent = KillTut
+	
+		KillPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		KillPageSep.BorderSizePixel = 0
+		KillPageSep.Position = UDim2.new(0, 15, 0, 155)
+		KillPageSep.Size = UDim2.new(0, 150, 0, 1)
+		KillPageSep.Parent = KillAuraPage
+	
+		KillButt.Active = true
+		KillButt.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		KillButt.Position = UDim2.new(0, 5, 0, 170)
+		KillButt.Selectable = true
+		KillButt.Size = UDim2.new(0, 170, 0, 50)
+		KillButt.Font = "SourceSansBold"
+		KillButt.Text = "GO!"
+		KillButt.TextColor3 = Color3.new(1, 1, 1)
+		KillButt.TextSize = 24
+		KillButt.Parent = KillAuraPage
+		KillButt.MouseButton1Down:connect(function()
+			while wait(0.1) do
+				for i, plr in pairs(game.Players:GetChildren()) do
+					if plr.Name ~= game.Players.LocalPlayer.Name then
+						for i = 1, 10 do
+							game.ReplicatedStorage.meleeEvent:FireServer(plr)
+						end
+					end
+				end
+			end
+		end)
+	
+		-- Car Teleport Page Contents
+	
+		CarTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		CarTut.BackgroundTransparency = 1
+		CarTut.Size = UDim2.new(0, 180, 0, 35)
+		CarTut.Font = "SourceSansBold"
+		CarTut.Text = "Tutorial"
+		CarTut.TextColor3 = Color3.new(1, 1, 1)
+		CarTut.TextSize = 28
+		CarTut.Parent = CarTelePage
+	
+		CarTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		CarTxtWall.BackgroundTransparency = 1
+		CarTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		CarTxtWall.Size = UDim2.new(0, 180, 0, 85)
+		CarTxtWall.Font = "SourceSansBold"
+		CarTxtWall.Text = "Click on a car that you want to teleport to yourself. I'm pretty sure this is server-sided."
+		CarTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		CarTxtWall.TextSize = 18
+		CarTxtWall.TextWrapped = true
+		CarTxtWall.Parent = CarTut
+	
+		CarPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		CarPageSep.BorderSizePixel = 0
+		CarPageSep.Position = UDim2.new(0, 15, 0, 125)
+		CarPageSep.Size = UDim2.new(0, 150, 0, 1)
+		CarPageSep.Parent = CarTelePage
+	
+		CarTeleButt1.Active = true
+		CarTeleButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		CarTeleButt1.Position = UDim2.new(0, 27, 0, 135)
+		CarTeleButt1.Selectable = true
+		CarTeleButt1.Size = UDim2.new(0, 125, 0, 35)
+		CarTeleButt1.Font = "SourceSansBold"
+		CarTeleButt1.Text = "Sedan Teleport"
+		CarTeleButt1.TextColor3 = Color3.new(1, 1, 1)
+		CarTeleButt1.TextSize = 18
+		CarTeleButt1.Parent = CarTelePage
+		CarTeleButt1.MouseButton1Down:connect(function()
+			local Cars = {"Sedan"}
+			for i, v in pairs(game.Workspace["CarContainer"]:GetChildren()) do
+				for j, k in pairs(Cars) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+						wait(.1)
+						v.Parent = game.Workspace
+					end
+				end
+			end
+		end)
+	
+		CarTeleButt2.Active = true
+		CarTeleButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		CarTeleButt2.Position = UDim2.new(0, 27, 0, 180)
+		CarTeleButt2.Selectable = true
+		CarTeleButt2.Size = UDim2.new(0, 125, 0, 35)
+		CarTeleButt2.Font = "SourceSansBold"
+		CarTeleButt2.Text = "Squad Teleport"
+		CarTeleButt2.TextColor3 = Color3.new(1, 1, 1)
+		CarTeleButt2.TextSize = 18
+		CarTeleButt2.Parent = CarTelePage
+		CarTeleButt2.MouseButton1Down:connect(function()
+			local Cars = {"Squad"}
+			for i, v in pairs(game.Workspace["CarContainer"]:GetChildren()) do
+				for j, k in pairs(Cars) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+						wait(.1)
+						v.Parent = game.Workspace
+					end
+				end
+			end
+		end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	end)
+end
+coroutine.wrap(WWPLLTA_fake_script)()
+local function DEJFRQL_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local espcolor = Color3.fromRGB(140, 69, 102)
+		local wallhack_esp_transparency = .4
+		local gui_hide_button = {Enum.KeyCode.LeftControl, "h"}
+		local plrs = game:GetService("Players")
+		local lplr = game:GetService("Players").LocalPlayer
+		local TeamBased = true ; local teambasedswitch = "o"
+		local presskeytoaim = true; local aimkey = "e"
+		aimbothider = false; aimbothiderspeed = .5
+		local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
+		local espupdatetime = 5; autoesp = false
+		local abs = math.abs
+		local mouselock = false
+		local canaimat = true
+		local lockaim = true; local lockangle = 5
+		local ver = "2"
+		local cam = game.Workspace.CurrentCamera
+		local BetterDeathCount = true
+	
+	
+		local mouse = lplr:GetMouse()
+		local switch = false
+		local key = "k"
+		local aimatpart = nil
+	
+		local CCAimbot = Instance.new("ScreenGui")
+		local AimbotFrame = Instance.new("Frame")
+		local MainAimbotFrame = Instance.new("Frame")
+		local N2 = Instance.new("Frame")
+		local CheatType = Instance.new("TextLabel")
+		local N2_2 = Instance.new("Frame")
+		local CheatType_2 = Instance.new("TextLabel")
+		local N1 = Instance.new("Frame")
+		local CheatType_3 = Instance.new("TextLabel")
+		local C5 = Instance.new("Frame")
+		local Letters = Instance.new("TextLabel")
+		local CheatType_4 = Instance.new("TextLabel")
+		local C4 = Instance.new("Frame")
+		local Letters_2 = Instance.new("TextLabel")
+		local CheatType_5 = Instance.new("TextLabel")
+		local C3 = Instance.new("Frame")
+		local Letters_3 = Instance.new("TextLabel")
+		local CheatType_6 = Instance.new("TextLabel")
+		local C2 = Instance.new("Frame")
+		local Letters_4 = Instance.new("TextLabel")
+		local CheatType_7 = Instance.new("TextLabel")
+		local C1 = Instance.new("Frame")
+		local Letters_5 = Instance.new("TextLabel")
+		local CheatType_8 = Instance.new("TextLabel")
+		local TabFrame = Instance.new("Frame")
+		local Title = Instance.new("TextLabel")
+		local Exit = Instance.new("TextButton")
+		local Hide = Instance.new("TextButton")
+	
+		--Properties:
+	
+		CCAimbot.Name = "CCAimbot"
+		CCAimbot.Parent = game.Players.LocalPlayer.PlayerGui
+	
+		AimbotFrame.Name = "AimbotFrame"
+		AimbotFrame.Parent = CCAimbot
+		AimbotFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+		AimbotFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		AimbotFrame.BackgroundTransparency = 1.000
+		AimbotFrame.BorderSizePixel = 0
+		AimbotFrame.ClipsDescendants = true
+		AimbotFrame.Position = UDim2.new(0.5, 0, 0.479495257, 0)
+		AimbotFrame.Size = UDim2.new(0, 195, 0, 259)
+	
+		MainAimbotFrame.Name = "MainAimbotFrame"
+		MainAimbotFrame.Parent = AimbotFrame
+		MainAimbotFrame.BackgroundColor3 = Color3.fromRGB(23, 24, 28)
+		MainAimbotFrame.BorderSizePixel = 0
+		MainAimbotFrame.ClipsDescendants = true
+		MainAimbotFrame.Position = UDim2.new(-0.00256413221, 0, 0.0464286208, 0)
+		MainAimbotFrame.Size = UDim2.new(0, 195, 0, 245)
+	
+		N2.Name = "N2"
+		N2.Parent = MainAimbotFrame
+		N2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		N2.BackgroundTransparency = 1.000
+		N2.BorderSizePixel = 0
+		N2.Position = UDim2.new(0, 0, 0.562231719, 0)
+		N2.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		CheatType.Name = "CheatType"
+		CheatType.Parent = N2
+		CheatType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType.BackgroundTransparency = 1.000
+		CheatType.BorderSizePixel = 0
+		CheatType.Position = UDim2.new(0, 0, 2.03163123, 0)
+		CheatType.Size = UDim2.new(1, 0, 1.05753362, 0)
+		CheatType.Font = Enum.Font.GothamBlack
+		CheatType.Text = "ESP Loop : False"
+		CheatType.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType.TextSize = 15.000
+		CheatType.TextWrapped = true
+	
+		N2_2.Name = "N2"
+		N2_2.Parent = MainAimbotFrame
+		N2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		N2_2.BackgroundTransparency = 1.000
+		N2_2.BorderSizePixel = 0
+		N2_2.Position = UDim2.new(0, 0, 0.935622334, 0)
+		N2_2.Size = UDim2.new(1, 0, 0.0613734461, 0)
+	
+		CheatType_2.Name = "CheatType"
+		CheatType_2.Parent = N2_2
+		CheatType_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_2.BackgroundTransparency = 1.000
+		CheatType_2.BorderSizePixel = 0
+		CheatType_2.Size = UDim2.new(1, 0, 1, 0)
+		CheatType_2.Font = Enum.Font.Gotham
+		CheatType_2.Text = "Letters Corrospond with Keybinds"
+		CheatType_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_2.TextScaled = true
+		CheatType_2.TextSize = 15.000
+		CheatType_2.TextWrapped = true
+	
+		N1.Name = "N1"
+		N1.Parent = MainAimbotFrame
+		N1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		N1.BackgroundTransparency = 1.000
+		N1.BorderSizePixel = 0
+		N1.Position = UDim2.new(0, 0, 0.562231719, 0)
+		N1.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		CheatType_3.Name = "CheatType"
+		CheatType_3.Parent = N1
+		CheatType_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_3.BackgroundTransparency = 1.000
+		CheatType_3.BorderSizePixel = 0
+		CheatType_3.Position = UDim2.new(0, 0, 0.987714529, 0)
+		CheatType_3.Size = UDim2.new(1, 0, 1.05753362, 0)
+		CheatType_3.Font = Enum.Font.GothamBlack
+		CheatType_3.Text = "Team Based : True"
+		CheatType_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_3.TextSize = 15.000
+		CheatType_3.TextWrapped = true
+	
+		C5.Name = "C5"
+		C5.Parent = MainAimbotFrame
+		C5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C5.BackgroundTransparency = 1.000
+		C5.BorderSizePixel = 0
+		C5.Position = UDim2.new(-0.00512820529, 0, 0.459227443, 0)
+		C5.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters.Name = "Letters"
+		Letters.Parent = C5
+		Letters.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters.BackgroundTransparency = 1.000
+		Letters.BorderSizePixel = 0
+		Letters.Position = UDim2.new(0.730999887, 0, 0.973926187, 0)
+		Letters.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters.Font = Enum.Font.GothamBold
+		Letters.Text = "O"
+		Letters.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters.TextSize = 15.000
+		Letters.TextWrapped = true
+	
+		CheatType_4.Name = "CheatType"
+		CheatType_4.Parent = C5
+		CheatType_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_4.BackgroundTransparency = 1.000
+		CheatType_4.BorderSizePixel = 0
+		CheatType_4.Position = UDim2.new(0.0307692308, 0, 0.97837925, 0)
+		CheatType_4.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_4.Font = Enum.Font.GothamBold
+		CheatType_4.Text = "Team Based"
+		CheatType_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_4.TextSize = 15.000
+		CheatType_4.TextWrapped = true
+		CheatType_4.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C4.Name = "C4"
+		C4.Parent = MainAimbotFrame
+		C4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C4.BackgroundTransparency = 1.000
+		C4.BorderSizePixel = 0
+		C4.Position = UDim2.new(0, 0, 0.356223166, 0)
+		C4.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_2.Name = "Letters"
+		Letters_2.Parent = C4
+		Letters_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_2.BackgroundTransparency = 1.000
+		Letters_2.BorderSizePixel = 0
+		Letters_2.Position = UDim2.new(0.730999887, 0, 0.914663553, 0)
+		Letters_2.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_2.Font = Enum.Font.GothamBold
+		Letters_2.Text = "Y"
+		Letters_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_2.TextSize = 15.000
+		Letters_2.TextWrapped = true
+	
+		CheatType_5.Name = "CheatType"
+		CheatType_5.Parent = C4
+		CheatType_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_5.BackgroundTransparency = 1.000
+		CheatType_5.BorderSizePixel = 0
+		CheatType_5.Position = UDim2.new(0.0307692308, 0, 0.919116616, 0)
+		CheatType_5.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_5.Font = Enum.Font.GothamBold
+		CheatType_5.Text = "Aimbot Hider"
+		CheatType_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_5.TextSize = 15.000
+		CheatType_5.TextWrapped = true
+		CheatType_5.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C3.Name = "C3"
+		C3.Parent = MainAimbotFrame
+		C3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C3.BackgroundTransparency = 1.000
+		C3.BorderSizePixel = 0
+		C3.Position = UDim2.new(0, 0, 0.253218889, 0)
+		C3.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_3.Name = "Letters"
+		Letters_3.Parent = C3
+		Letters_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_3.BackgroundTransparency = 1.000
+		Letters_3.BorderSizePixel = 0
+		Letters_3.Position = UDim2.new(0.730999887, 0, 0.855401516, 0)
+		Letters_3.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_3.Font = Enum.Font.GothamBold
+		Letters_3.Text = "L"
+		Letters_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_3.TextSize = 15.000
+		Letters_3.TextWrapped = true
+	
+		CheatType_6.Name = "CheatType"
+		CheatType_6.Parent = C3
+		CheatType_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_6.BackgroundTransparency = 1.000
+		CheatType_6.BorderSizePixel = 0
+		CheatType_6.Position = UDim2.new(0.0307692308, 0, 0.859854579, 0)
+		CheatType_6.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_6.Font = Enum.Font.GothamBold
+		CheatType_6.Text = "ESP Loop"
+		CheatType_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_6.TextSize = 15.000
+		CheatType_6.TextWrapped = true
+		CheatType_6.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C2.Name = "C2"
+		C2.Parent = MainAimbotFrame
+		C2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C2.BackgroundTransparency = 1.000
+		C2.BorderSizePixel = 0
+		C2.Position = UDim2.new(0, 0, 0.150214598, 0)
+		C2.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_4.Name = "Letters"
+		Letters_4.Parent = C2
+		Letters_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_4.BackgroundTransparency = 1.000
+		Letters_4.BorderSizePixel = 0
+		Letters_4.Position = UDim2.new(0.730999887, 0, 0.796139479, 0)
+		Letters_4.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_4.Font = Enum.Font.GothamBold
+		Letters_4.Text = "T"
+		Letters_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_4.TextSize = 15.000
+		Letters_4.TextWrapped = true
+	
+		CheatType_7.Name = "CheatType"
+		CheatType_7.Parent = C2
+		CheatType_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_7.BackgroundTransparency = 1.000
+		CheatType_7.BorderSizePixel = 0
+		CheatType_7.Position = UDim2.new(0.0307692308, 0, 0.800592542, 0)
+		CheatType_7.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_7.Font = Enum.Font.GothamBold
+		CheatType_7.Text = "ESP"
+		CheatType_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_7.TextSize = 15.000
+		CheatType_7.TextWrapped = true
+		CheatType_7.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C1.Name = "C1"
+		C1.Parent = MainAimbotFrame
+		C1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C1.BackgroundTransparency = 1.000
+		C1.BorderSizePixel = 0
+		C1.Position = UDim2.new(0, 0, 0.0472103022, 0)
+		C1.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_5.Name = "Letters"
+		Letters_5.Parent = C1
+		Letters_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_5.BackgroundTransparency = 1.000
+		Letters_5.BorderSizePixel = 0
+		Letters_5.Position = UDim2.new(0.730999887, 0, 0.736877441, 0)
+		Letters_5.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_5.Font = Enum.Font.GothamBold
+		Letters_5.Text = "E"
+		Letters_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_5.TextSize = 15.000
+		Letters_5.TextWrapped = true
+	
+		CheatType_8.Name = "CheatType"
+		CheatType_8.Parent = C1
+		CheatType_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_8.BackgroundTransparency = 1.000
+		CheatType_8.BorderSizePixel = 0
+		CheatType_8.Position = UDim2.new(0.0307692308, 0, 0.741330564, 0)
+		CheatType_8.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_8.Font = Enum.Font.GothamBold
+		CheatType_8.Text = "Lock-in Person"
+		CheatType_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_8.TextSize = 15.000
+		CheatType_8.TextWrapped = true
+		CheatType_8.TextXAlignment = Enum.TextXAlignment.Left
+	
+		TabFrame.Name = "TabFrame"
+		TabFrame.Parent = AimbotFrame
+		TabFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+		TabFrame.BackgroundColor3 = Color3.fromRGB(0, 237, 206)
+		TabFrame.BorderSizePixel = 0
+		TabFrame.ClipsDescendants = true
+		TabFrame.Position = UDim2.new(0.497435898, 0, 0.0926640928, 0)
+		TabFrame.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Title.Name = "Title"
+		Title.Parent = TabFrame
+		Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Title.BackgroundTransparency = 1.000
+		Title.BorderSizePixel = 0
+		Title.Position = UDim2.new(0.0307692308, 0, 0, 0)
+		Title.Size = UDim2.new(0.41538462, 0, 1, 0)
+		Title.Font = Enum.Font.GothamBold
+		Title.Text = "CC AIMBOT"
+		Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title.TextSize = 14.000
+		Title.TextXAlignment = Enum.TextXAlignment.Left
+	
+		Exit.Name = "Exit"
+		Exit.Parent = TabFrame
+		Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Exit.BackgroundTransparency = 1.000
+		Exit.BorderSizePixel = 0
+		Exit.Position = UDim2.new(0.899999976, 0, 0, 0)
+		Exit.Size = UDim2.new(0.100000001, 0, 1, 0)
+		Exit.Font = Enum.Font.GothamBold
+		Exit.Text = "X"
+		Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Exit.TextScaled = true
+		Exit.TextSize = 14.000
+		Exit.TextWrapped = true
+	
+		Hide.Name = "Hide"
+		Hide.Parent = TabFrame
+		Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Hide.BackgroundTransparency = 1.000
+		Hide.BorderSizePixel = 0
+		Hide.Position = UDim2.new(0.79743588, 0, 0, 0)
+		Hide.Size = UDim2.new(0.100000001, 0, 1, 0)
+		Hide.Font = Enum.Font.GothamBold
+		Hide.Text = "-"
+		Hide.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Hide.TextScaled = true
+		Hide.TextSize = 14.000
+		Hide.TextWrapped = true
+	
+		-- Scripts:
+	
+		local function JLYIY_fake_script() -- Exit.LocalScript 
+			local script = Instance.new('LocalScript', Exit)
+	
+			local b = script.Parent
+	
+			b.MouseButton1Down:connect(function()
+				b.Parent.Parent.AnchorPoint = Vector2.new(0.5, 0.5)
+				b.Parent.Parent:TweenSize(UDim2.new(0, 0, 0, 0), "In", 2, 0.5)
+			end)
+		end
+		coroutine.wrap(JLYIY_fake_script)()
+		local function CXSQXNO_fake_script() -- Hide.LocalScript 
+			local script = Instance.new('LocalScript', Hide)
+	
+			local b = script.Parent
+			local closed = false
+	
+			b.MouseButton1Down:connect(function()
+				if closed == false then
+					b.Parent.Parent.MainAimbotFrame:TweenSize(UDim2.new(0, 195, 0, 25), "Out", 1.5, 0.5)
+					closed = true
+	
+				elseif closed == true then
+					b.Parent.Parent.MainAimbotFrame:TweenSize(UDim2.new(0, 195, 0, 245), "Out", 1.5, 0.5)
+					closed = false
+				end
+	
+			end)
+		end
+		coroutine.wrap(CXSQXNO_fake_script)()
+	
+		f = {}
+		local espforlder
+		local partconverter = Instance.new("Part")
+	
+		f.addesp = function()
+			pcall(function()
+				--print("ESP ran")
+				if espforlder then
+					espforlder:Destroy()
+					espforlder = Instance.new("Folder")
+					espforlder.Parent = game.Workspace.CurrentCamera
+				else
+					espforlder = Instance.new("Folder")
+					espforlder.Parent = game.Workspace.CurrentCamera
+				end
+				for i, v in pairs(espforlder:GetChildren()) do
+					v:Destroy()
+				end
+				for _, plr in pairs(plrs:GetChildren()) do
+					if plr.Character and plr.Character.Humanoid.Health > 0 and plr.Name ~= lplr.Name then
+						if TeamBased == true then
+							if plr.Team.Name ~= plrs.LocalPlayer.Team.Name  then
+								local e = espforlder:FindFirstChild(plr.Name)
+								if not e then
+									local fold = Instance.new("Folder", espforlder)
+									fold.Name = plr.Name
+	
+									--partconverter.BrickColor = plr.Team.Color
+									--local teamc = partconverter.Color
+									for i, p in pairs(plr.Character:GetChildren()) do
+										if p:IsA("BasePart") and p.Name ~= "HumanoidRootPart" then
+											local urmom = Instance.new("BoxHandleAdornment")
+											urmom.ZIndex = 10
+											urmom.AlwaysOnTop = true
+											urmom.Color3 = espcolor
+											urmom.Size = p.Size
+											urmom.Adornee = p
+											urmom.Name = tick().." Ur mom has big gay"
+											urmom.Transparency = wallhack_esp_transparency
+											urmom.Parent = fold
+	
+										end
+									end
+									plr.Character.Humanoid.Died:Connect(function()
+										fold:Destroy()
+									end)
+								end
+							end
+						else
+							local e = espforlder:FindFirstChild(plr.Name)
+							if not e then
+								local fold = Instance.new("Folder", espforlder)
+								fold.Name = plr.Name
+	
+								--partconverter.BrickColor = plr.Team.Color
+								--local teamc = Move.BackgroundColor3
+								for i, p in pairs(plr.Character:GetChildren()) do
+									if p:IsA("BasePart") and p.Name ~= "HumanoidRootPart" then
+										local urmom = Instance.new("BoxHandleAdornment")
+										urmom.ZIndex = 10
+										urmom.AlwaysOnTop = true
+										urmom.Color3 = espcolor
+										urmom.Size = p.Size
+										urmom.Adornee = p
+										urmom.Name = tick().." Ur mom has big gay"
+										urmom.Transparency = wallhack_esp_transparency
+										urmom.Parent = fold
+									end
+								end
+								plr.Character.Humanoid.Died:Connect(function()
+									fold:Destroy()
+								end)
+							end
+						end
+	
+	
+					end
+				end
+			end)
+		end
+		local uis = game:GetService("UserInputService")
+		local bringall = false
+		local hided2 = false
+		mouse.KeyDown:Connect(function(a)
+			if a == "t" then
+				--print("worked1")
+				f.addesp()
+			elseif a == gui_hide_button[2] and uis:IsKeyDown(gui_hide_button[1]) then
+				if hided2 == false then
+					hided2 = true
+					autoesp =false
+					if espforlder then
+						espforlder:Destroy()
+					end
+					CCAimbot.Enabled = false
+				else
+					CCAimbot.Enabled = true
+					hided2 = false
+				end
+			elseif a == "u" then
+				if mouselock == false then
+					mouselock = true
+				else
+					mouselock = false
+				end
+			elseif a == "y" then
+				if aimbothider == false then
+					aimbothider = true
+					if aimbothider == true then
+						return
+					end
+				end
+			elseif a == "l" then
+				if autoesp == false then
+					autoesp = true
+				else
+					autoesp = false
+				end
+			elseif a == Aim_Assist_Key[2] and uis:IsKeyDown(Aim_Assist_Key[1]) then
+				if Aim_Assist == true then
+					Aim_Assist = false
+					--print("disabled")
+				else
+					Aim_Assist = true
+				end
+			end
+			if a == "j" then
+				if mouse.Target then
+					mouse.Target:Destroy()
+				end
+			end
+			if a == key then
+				if switch == false then
+					switch = true
+				else
+					switch = false
+					if aimatpart ~= nil then
+						aimatpart = nil
+					end
+				end
+			elseif a == teambasedswitch then
+				if TeamBased == true then
+					TeamBased = false
+					CheatType_3.Text = "Team Based : "..tostring(TeamBased)
+				else
+					TeamBased = true
+					CheatType_3.Text = "Team Based : "..tostring(TeamBased)
+				end
+			elseif a == aimkey then
+				if not aimatpart then
+					local maxangle = math.rad(20)
+					for i, plr in pairs(plrs:GetChildren()) do
+						if plr.Name ~= lplr.Name and plr.Character and plr.Character.Head and plr.Character.Humanoid and plr.Character.Humanoid.Health > 1 then
+							if TeamBased == true then
+								if plr.Team.Name ~= lplr.Team.Name then
+									local an = checkfov(plr.Character.Head)
+									if an < maxangle then
+										maxangle = an
+										aimatpart = plr.Character.Head
+									end
+								end
+							else
+								local an = checkfov(plr.Character.Head)
+								if an < maxangle then
+									maxangle = an
+									aimatpart = plr.Character.Head
+								end
+								--print(plr)
+							end
+							local old = aimatpart
+							plr.Character.Humanoid.Died:Connect(function()
+								--print("died")
+								if aimatpart and aimatpart == old then
+									aimatpart = nil
+								end
+							end)
+	
+						end
+					end
+				else
+					aimatpart = nil
+					canaimat = false
+					delay(1.1, function()
+						canaimat = true
+					end)
+				end
+			end
+		end)
+	
+		function getfovxyz (p0, p1, deg)
+			local x1, y1, z1 = p0:ToOrientation()
+			local cf = CFrame.new(p0.p, p1.p)
+			local x2, y2, z2 = cf:ToOrientation()
+			local d = math.deg
+			if deg then
+				return Vector3.new(d(x1-x2), d(y1-y2), d(z1-z2))
+			else
+				return Vector3.new((x1-x2), (y1-y2), (z1-z2))
+			end
+		end
+	
+	
+		function aimat(part)
+			if part then
+				if aimbothider == true or Aim_Assist == true then
+					cam.CFrame = cam.CFrame:Lerp(CFrame.new(cam.CFrame.p, part.CFrame.p), aimbothiderspeed)
+				else
+	
+					cam.CFrame = CFrame.new(cam.CFrame.p, part.CFrame.p)
+				end
+			end
+		end
+		function checkfov (part)
+			local fov = getfovxyz(game.Workspace.CurrentCamera.CFrame, part.CFrame)
+			local angle = math.abs(fov.X) + math.abs(fov.Y)
+			return angle
+		end
+		pcall(function()
+			delay(0, function()
+				while wait(.4) do
+					if Aim_Assist and not aimatpart and canaimat and lplr.Character and lplr.Character.Humanoid and lplr.Character.Humanoid.Health > 0 then
+						for i, plr in pairs(plrs:GetChildren()) do
+	
+	
+							local minangle = math.rad(5.5)
+							local lastpart = nil
+							local function gg(plr)
+								pcall(function()
+									if plr.Name ~= lplr.Name and plr.Character and plr.Character.Humanoid and plr.Character.Humanoid.Health > 0 and plr.Character.Head then
+										local raycasted = false
+										local cf1 = CFrame.new(cam.CFrame.p, plr.Character.Head.CFrame.p) * CFrame.new(0, 0, -4)
+										local r1 = Ray.new(cf1.p, cf1.LookVector * 9000)
+										local obj, pos = game.Workspace:FindPartOnRayWithIgnoreList(r1,  {lplr.Character.Head})
+										local dist = (plr.Character.Head.CFrame.p- pos).magnitude
+										if dist < 4 then
+											raycasted = true
+										end
+										if raycasted == true then
+											local an1 = getfovxyz(cam.CFrame, plr.Character.Head.CFrame)
+											local an = abs(an1.X) + abs(an1.Y)
+											if an < minangle then
+												minangle = an
+												lastpart = plr.Character.Head
+											end
+										end
+									end
+								end)
+							end
+							if TeamBased then
+								if plr.Team.Name ~= lplr.Team.Name then
+									gg(plr)
+								end
+							else
+								gg(plr)
+							end
+							--print(math.deg(minangle))
+							if lastpart then
+								aimatpart = lastpart
+								aimatpart.Parent.Humanoid.Died:Connect(function()
+									if aimatpart == lastpart then
+										aimatpart = nil
+									end
+								end)
+	
+							end
+						end
+					end
+				end
+			end)
+		end)
+		local oldheadpos
+		local lastaimapart
+		game:GetService("RunService").RenderStepped:Connect(function()
+			CheatType.Text = "Esp loop : "..tostring(autoesp)
+			if aimatpart and lplr.Character and lplr.Character.Head then
+				if BetterDeathCount and lastaimapart and lastaimapart == aimatpart then
+					local dist = (oldheadpos - aimatpart.CFrame.p).magnitude
+					if dist > 40 then
+						aimatpart = nil
+					end
+				end
+				lastaimapart = aimatpart
+				oldheadpos = lastaimapart.CFrame.p
+				do
+					if aimatpart.Parent == plrs.LocalPlayer.Character then
+						aimatpart = nil
+					end
+					aimat(aimatpart)
+					pcall(function()
+						if Aim_Assist == true then
+							local cf1 = CFrame.new(cam.CFrame.p, aimatpart.CFrame.p) * CFrame.new(0, 0, -4)
+							local r1 = Ray.new(cf1.p, cf1.LookVector * 1000)
+							local obj, pos = game.Workspace:FindPartOnRayWithIgnoreList(r1,  {lplr.Character.Head})
+							local dist = (aimatpart.CFrame.p- pos).magnitude
+							if obj then
+								--print(obj:GetFullName())
+							end
+							if not obj or dist > 6 then
+								aimatpart = nil
+								--print("ooof")
+							end
+							canaimat = false
+							delay(.5, function()
+								canaimat = true
+							end)
+						end
+					end)
+				end
+	
+	
+	
+			end
+		end)
+		delay(0, function()
+			while wait(espupdatetime) do
+				if autoesp == true then
+					pcall(function()
+						f.addesp()
+					end)
+				end
+			end
+		end)
+		--warn("loaded")
+		function dragify(Frame)
+			dragToggle = nil
+			dragSpeed = .25 -- You can edit this.
+			dragInput = nil
+			dragStart = nil
+			dragPos = nil
+	
+			function updateInput(input)
+				Delta = input.Position - dragStart
+				Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+				game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+			end
+	
+			Frame.InputBegan:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+					dragToggle = true
+					dragStart = input.Position
+					startPos = Frame.Position
+					input.Changed:Connect(function()
+						if (input.UserInputState == Enum.UserInputState.End) then
+							dragToggle = false
+						end
+					end)
+				end
+			end)
+	
+			Frame.InputChanged:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+					dragInput = input
+				end
+			end)
+	
+			game:GetService("UserInputService").InputChanged:Connect(function(input)
+				if (input == dragInput and dragToggle) then
+					updateInput(input)
+				end
+			end)
+		end
+		dragify(AimbotFrame)
+	
+		local Player = game:GetService'Players'.LocalPlayer;
+		local UIS = game:GetService'UserInputService';
+	
+		_G.JumpHeight = 50;
+	
+		function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+						end)
+					end
+				end)
+			end
+		end)
+	end)
+end
+coroutine.wrap(DEJFRQL_fake_script)()
+local function UCXPCY_fake_script() -- RightArrow.LocalScript 
+	local script = Instance.new('LocalScript', RightArrow)
+
+	local gamesChildren = script.Parent.Parent:GetChildren()
+	local globalScriptsChildren = script.Parent.Parent.Parent.GlobalScripts:GetChildren()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i = 1, #gamesChildren do
+			local child = gamesChildren[i]
+			child.Visible = false
+		end
+		
+		for i = 1, #globalScriptsChildren do
+			local child = globalScriptsChildren[i]
+			child.Visible = true
+		end
+	end)
+end
+coroutine.wrap(UCXPCY_fake_script)()
+local function FIRSZX_fake_script() -- MM2.LocalScript 
+	local script = Instance.new('LocalScript', MM2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel'),true))()
+	end)
+end
+coroutine.wrap(FIRSZX_fake_script)()
+local function STKRQ_fake_script() -- FTF.LocalScript 
+	local script = Instance.new('LocalScript', FTF)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/Flee%20The%20Facility'),true))()
+	end)
+end
+coroutine.wrap(STKRQ_fake_script)()
+local function VIJWBBW_fake_script() -- SaberSim.LocalScript 
+	local script = Instance.new('LocalScript', SaberSim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/Saber%20Sim'),true))()
+	end)
+end
+coroutine.wrap(VIJWBBW_fake_script)()
+local function VXBPT_fake_script() -- SharkBite.LocalScript 
+	local script = Instance.new('LocalScript', SharkBite)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
+	end)
+end
+coroutine.wrap(VXBPT_fake_script)()
+local function FQIH_fake_script() -- LeftArrow.LocalScript 
+	local script = Instance.new('LocalScript', LeftArrow)
+
+	local gamesChildren = script.Parent.Parent.Parent.Games:GetChildren()
+	local globalScriptsChildren = script.Parent.Parent:GetChildren()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i = 1, #gamesChildren do
+			local child = gamesChildren[i]
+			child.Visible = true
+		end
+		
+		for i = 1, #globalScriptsChildren do
+			local child = globalScriptsChildren[i]
+			child.Visible = false
+		end
+	end)
+end
+coroutine.wrap(FQIH_fake_script)()
+local function ZVOHOW_fake_script() -- Dex.LocalScript 
+	local script = Instance.new('LocalScript', Dex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex Explorer V2.txt"))
+	end)
+end
+coroutine.wrap(ZVOHOW_fake_script)()
+local function NNBW_fake_script() -- OwlHub.LocalScript 
+	local script = Instance.new('LocalScript', OwlHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt'), true))()
+	end)
+end
+coroutine.wrap(NNBW_fake_script)()
+local function SIWPDH_fake_script() -- RevizAdmin.LocalScript 
+	local script = Instance.new('LocalScript', RevizAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://pastebinp.com/raw/Hv2BEncA'),true))()
+	end)
+end
+coroutine.wrap(SIWPDH_fake_script)()
+local function UVMJQBW_fake_script() -- ClickTP.LocalScript 
+	local script = Instance.new('LocalScript', ClickTP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		local tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end)
+end
+coroutine.wrap(UVMJQBW_fake_script)()
+local function TCWB_fake_script() -- Intro.LocalScript 
+	local script = Instance.new('LocalScript', Intro)
+
+	script.Parent:TweenSize(UDim2.new(0, 100, 0, 100), nil, nil, 0.25)
+	wait(1)
+	script.Parent:TweenSize(UDim2.new(0, 90, 0, 90), nil, nil, 0.1)
+	wait(0.1)
+	script.Parent:TweenSize(UDim2.new(0, 100, 0, 100), nil, nil, 0.1)
+	wait(0.5)
+	script.Parent:TweenSize(UDim2.new(0, 90, 0, 90), nil, nil, 0.1)
+	wait(0.1)
+	script.Parent:TweenSize(UDim2.new(0, 100, 0, 100), nil, nil, 0.1)
+	wait(0.5)
+	script.Parent:TweenSize(UDim2.new(0, 90, 0, 90), nil, nil, 0.1)
+	wait(0.1)
+	script.Parent:TweenSize(UDim2.new(0, 100, 0, 100), nil, nil, 0.1)
+	wait(0.5)
+	script.Parent:TweenSize(UDim2.new(0, 0, 0, 0), nil, nil, 0.25)
+	wait(0.25)
+	script.Parent.Visible = false
+	if game.Players.LocalPlayer.Name == "IJustHaveGoodSkillz" then
+		script.Parent.Parent.VIP.Visible = true
+		
+		local function callback(text)
+			if text == "ok lol" then
+				print("They want extra points!")
+			end
+		end
+	
+		local bindableFunction = Instance.new("BindableFunction")
+		bindableFunction.OnInvoke = callback
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "DazHub"; -- Required. Has to be a string!
+			Text = "Yo! Welcome to DazHub! Thanks for being a VIP member!"; -- Required. Has to be a string!
+			Icon = ""; -- Optional, defaults to "" (no icon)
+			Duration = 5; -- Optional, defaults to 5 seconds
+			Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
+			Button1 = "ok lol"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+		})
+	else
+		script.Parent.Parent.Main.Visible = true
+		
+		local function callback(text)
+			if text == "ok lol" then
+				print("They want extra points!")
+			end
+		end
+	
+		local bindableFunction = Instance.new("BindableFunction")
+		bindableFunction.OnInvoke = callback
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "DazHub"; -- Required. Has to be a string!
+			Text = "Yo! Welcome to DazHub! Thanks for using our hub!"; -- Required. Has to be a string!
+			Icon = ""; -- Optional, defaults to "" (no icon)
+			Duration = 5; -- Optional, defaults to 5 seconds
+			Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
+			Button1 = "ok lol"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+		})
+	end
+end
+coroutine.wrap(TCWB_fake_script)()
+local function HYPIUCB_fake_script() -- Title_4.LocalScript 
+	local script = Instance.new('LocalScript', Title_4)
+
+	local start = Color3.new(math.random())-- White
+	local End = Color3.new(math.random())--Red
+	
+	while true do
+		for i = 0,1,0.03 do
+			wait()
+			local color = start:lerp(End,i)
+		end
+	end
+end
+coroutine.wrap(HYPIUCB_fake_script)()
+local function NTWICH_fake_script() -- VIP.LocalScript 
+	local script = Instance.new('LocalScript', VIP)
+
+	function dragify(Frame)
+		local dragToggle = nil
+		local dragSpeed = .25
+		local dragInput = nil
+		local dragStart = nil
+		local dragPos = nil
+	
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+		end
+	
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if (input.UserInputState == Enum.UserInputState.End) then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+	
+		Frame.InputChanged:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+				dragInput = input
+			end
+		end)
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if (input == dragInput and dragToggle) then
+				updateInput(input)
+			end
+		end)
+	end
+	dragify(script.Parent)
+end
+coroutine.wrap(NTWICH_fake_script)()
+local function JPJPQ_fake_script() -- PrisonLife_2.LocalScript 
+	local script = Instance.new('LocalScript', PrisonLife_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Main
+		local PrisonLifeGui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+		local Drag = Instance.new("Frame")
+		local Title = Instance.new("TextLabel")
+		local Close = Instance.new("TextButton")
+		local Open = Instance.new("TextButton")
+		local Body = Instance.new("ScrollingFrame")
+		local Scroll = Instance.new("ScrollingFrame")
+		-- Pages
+		local WelcomePage = Instance.new("Frame")
+		local WeaponsPage = Instance.new("Frame")
+		local TeleportPage = Instance.new("ScrollingFrame")
+		local DoorPage = Instance.new("Frame")
+		local KillAuraPage = Instance.new("Frame")
+		local CarTelePage = Instance.new("Frame")
+		-- Side Buttons
+		local WeaponsButton = Instance.new("TextButton")
+		local TeleportButton = Instance.new("TextButton")
+		local DoorButton = Instance.new("TextButton")
+		local KillButton = Instance.new("TextButton")
+		local CarButton = Instance.new("TextButton")
+		-- Welcome Page Contents
+		local Welcome = Instance.new("TextLabel")
+		local Credits = Instance.new("TextLabel")
+		local Credit2 = Instance.new("TextLabel")
+		local TxtWall = Instance.new("TextLabel")
+		local CredPic = Instance.new("ImageLabel")
+		-- Weapon Page Contents
+		local WepTut = Instance.new("TextLabel")
+		local WepTxtWall = Instance.new("TextLabel")
+		local WepTutSep = Instance.new("Frame")
+		local WepButt1 = Instance.new("TextButton")
+		local WepButt2 = Instance.new("TextButton")
+		local WepButt3 = Instance.new("TextButton")
+		local WepButt4 = Instance.new("TextButton")
+		-- Door Page Contents
+		local DoorTut = Instance.new("TextLabel")
+		local DoorTxtWall = Instance.new("TextLabel")
+		local DoorPageSep = Instance.new("Frame")
+		local DoorButt = Instance.new("TextButton")
+		-- Teleport Page Contents
+		local TeleTut = Instance.new("TextLabel")
+		local TeleTxtWall = Instance.new("TextLabel")
+		local TeleButt1 = Instance.new("TextButton")
+		local TeleButt2 = Instance.new("TextButton")
+		local TeleButt3 = Instance.new("TextButton")
+		local TeleButt4 = Instance.new("TextButton")
+		local TeleButt5 = Instance.new("TextButton")
+		local TeleButt6 = Instance.new("TextButton")
+		local TeleButt7 = Instance.new("TextButton")
+		local TeleButt8 = Instance.new("TextButton")
+		local TeleButt9 = Instance.new("TextButton")
+		local TeleButt10 = Instance.new("TextButton")
+		-- Kill Aura Page Contents
+		local KillTut = Instance.new("TextLabel")
+		local KillTxtWall = Instance.new("TextLabel")
+		local KillPageSep = Instance.new("Frame")
+		local KillButt = Instance.new("TextButton")
+		-- Car Teleport Page Contents
+		local CarTut = Instance.new("TextLabel")
+		local CarTxtWall = Instance.new("TextLabel")
+		local CarPageSep = Instance.new("Frame")
+		local CarTeleButt1 = Instance.new("TextButton")
+		local CarTeleButt2 = Instance.new("TextButton")
+		-- Main
+	
+		Drag.Active = true
+		Drag.Name = "Drag"
+		Drag.Parent = PrisonLifeGui
+		Drag.BackgroundColor3 = Color3.new(0/255, 105/255, 154/255)
+		Drag.BackgroundTransparency = 0
+		Drag.BorderSizePixel = 0
+		Drag.Position = UDim2.new(0, 0, 0, 0)
+		Drag.Selectable = true
+		Drag.Draggable = true
+		Drag.Size = UDim2.new(0, 300, 0, 35)
+	
+		Title.Parent = Drag
+		Title.Name = "Title"
+		Title.BackgroundTransparency = 1
+		Title.BorderSizePixel = 0
+		Title.Position = UDim2.new(0, 30, 0, 0)
+		Title.Size = UDim2.new(0, 225, 0, 35)
+		Title.Font = "SourceSansBold"
+		Title.TextColor3 = Color3.new(255, 255, 255)
+		Title.Text = "Prison Life GUI [Revamp]"
+		Title.TextSize = 26
+	
+		Close.Parent = Drag
+		Close.Name = "Close"
+		Close.BackgroundTransparency = 1
+		Close.BorderSizePixel = 0
+		Close.Position = UDim2.new(0, 265, 0, 0)
+		Close.Size = UDim2.new(0, 35, 0, 35)
+		Close.Font = "SourceSansBold"
+		Close.TextColor3 = Color3.new(255, 255, 255)
+		Close.Text = "X"
+		Close.TextSize = 28
+		Close.MouseButton1Down:connect(function()
+			Body:TweenSize(UDim2.new(1,0,0,0), 'In', 'Quad', 0.5, false)
+			wait(0.5)
+			Close.Visible = false
+			Open.Visible = true
+		end)
+	
+		Open.Parent = Drag
+		Open.Visible = false
+		Open.Name = "Open"
+		Open.BackgroundTransparency = 1
+		Open.BorderSizePixel = 0
+		Open.Position = UDim2.new(0, 265, 0, 0)
+		Open.Size = UDim2.new(0, 35, 0, 35)
+		Open.Font = "SourceSansBold"
+		Open.TextColor3 = Color3.new(255, 255, 255)
+		Open.Text = "+"
+		Open.TextSize = 28
+		Open.MouseButton1Down:connect(function()
+			Body:TweenSize(UDim2.new(0,300,0,235), 'Out', 'Bounce', 2, false)
+			wait(0.5)
+			Close.Visible = true
+			Open.Visible = false
+		end)
+	
+		Body.Parent = Drag
+		Body.Name = "Body"
+		Body.BackgroundColor3 = Color3.new(0/255, 85/255, 127/255)
+		Body.BackgroundTransparency = 0
+		Body.BorderSizePixel = 0
+		Body.Position = UDim2.new(0, 0, 0, 35)
+		Body.Size = UDim2.new(0, 300, 0, 235)
+		Body.ScrollingEnabled = false
+		Body.ScrollBarThickness = 0
+	
+		Scroll.Parent = Body
+		Scroll.Name = "Scroll"
+		Scroll.BackgroundTransparency = 1
+		Scroll.BorderSizePixel = 0
+		Scroll.Position = UDim2.new(0, 0, 0, 0)
+		Scroll.Size = UDim2.new(0, 110, 0, 235)
+		Scroll.CanvasSize = UDim2.new(0, 0, 2, 0)
+	
+		-- Pages
+	
+		WelcomePage.Parent = Body
+		WelcomePage.Visible = true
+		WelcomePage.Name = "WelcomePage"
+		WelcomePage.BackgroundTransparency = 1
+		WelcomePage.BorderSizePixel = 0
+		WelcomePage.Position = UDim2.new(0, 115, 0, 0)
+		WelcomePage.Size = UDim2.new(0, 180, 0, 235)
+	
+		WeaponsPage.Parent = Body
+		WeaponsPage.Visible = false
+		WeaponsPage.Name = "WeaponsPage"
+		WeaponsPage.BackgroundTransparency = 1
+		WeaponsPage.BorderSizePixel = 0
+		WeaponsPage.Position = UDim2.new(0, 115, 0, 0)
+		WeaponsPage.Size = UDim2.new(0, 180, 0, 235)
+	
+		TeleportPage.Parent = Body
+		TeleportPage.Visible = false
+		TeleportPage.Name = "TeleportPage"
+		TeleportPage.BackgroundTransparency = 1
+		TeleportPage.BorderSizePixel = 0
+		TeleportPage.Position = UDim2.new(0, 115, 0, 0)
+		TeleportPage.Size = UDim2.new(0, 180, 0, 235)
+		TeleportPage.CanvasSize = UDim2.new(0, 0, 2.5, 0)
+	
+		DoorPage.Parent = Body
+		DoorPage.Visible = false
+		DoorPage.Name = "DoorPage"
+		DoorPage.BackgroundTransparency = 1
+		DoorPage.BorderSizePixel = 0
+		DoorPage.Position = UDim2.new(0, 115, 0, 0)
+		DoorPage.Size = UDim2.new(0, 180, 0, 235)
+	
+		KillAuraPage.Parent = Body
+		KillAuraPage.Visible = false
+		KillAuraPage.Name = "KillAuraPage"
+		KillAuraPage.BackgroundTransparency = 1
+		KillAuraPage.BorderSizePixel = 0
+		KillAuraPage.Position = UDim2.new(0, 115, 0, 0)
+		KillAuraPage.Size = UDim2.new(0, 180, 0, 235)
+	
+		CarTelePage.Parent = Body
+		CarTelePage.Visible = false
+		CarTelePage.Name = "CarTelePage"
+		CarTelePage.BackgroundTransparency = 1
+		CarTelePage.BorderSizePixel = 0
+		CarTelePage.Position = UDim2.new(0, 115, 0, 0)
+		CarTelePage.Size = UDim2.new(0, 180, 0, 235)
+	
+		-- Buttons
+	
+		WeaponsButton.Parent = Scroll
+		WeaponsButton.Name = "WeaponsButton"
+		WeaponsButton.BackgroundTransparency = 1
+		WeaponsButton.BorderSizePixel = 0
+		WeaponsButton.Position = UDim2.new(0, 5, 0, 5)
+		WeaponsButton.Size = UDim2.new(0, 85, 0, 35)
+		WeaponsButton.Font = "SourceSansBold"
+		WeaponsButton.TextColor3 = Color3.new(255, 255, 255)
+		WeaponsButton.Text = "Weapons"
+		WeaponsButton.TextSize = 24
+		WeaponsButton.Style = "RobloxRoundButton"
+		WeaponsButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = true
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		TeleportButton.Parent = Scroll
+		TeleportButton.Name = "TeleportButton"
+		TeleportButton.BackgroundTransparency = 1
+		TeleportButton.BorderSizePixel = 0
+		TeleportButton.Position = UDim2.new(0, 5, 0, 45)
+		TeleportButton.Size = UDim2.new(0, 85, 0, 35)
+		TeleportButton.Font = "SourceSansBold"
+		TeleportButton.TextColor3 = Color3.new(255, 255, 255)
+		TeleportButton.Text = "Teleports"
+		TeleportButton.TextSize = 22
+		TeleportButton.Style = "RobloxRoundButton"
+		TeleportButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = true
+			DoorPage.Visible = false
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		DoorButton.Parent = Scroll
+		DoorButton.Name = "DoorButton"
+		DoorButton.BackgroundTransparency = 1
+		DoorButton.BorderSizePixel = 0
+		DoorButton.Position = UDim2.new(0, 5, 0, 85)
+		DoorButton.Size = UDim2.new(0, 85, 0, 35)
+		DoorButton.Font = "SourceSansBold"
+		DoorButton.TextColor3 = Color3.new(255, 255, 255)
+		DoorButton.Text = "Remove Doors"
+		DoorButton.TextSize = 14
+		DoorButton.Style = "RobloxRoundButton"
+		DoorButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = true
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		KillButton.Parent = Scroll
+		KillButton.Name = "KillButton"
+		KillButton.BackgroundTransparency = 1
+		KillButton.BorderSizePixel = 0
+		KillButton.Position = UDim2.new(0, 5, 0, 125)
+		KillButton.Size = UDim2.new(0, 85, 0, 35)
+		KillButton.Font = "SourceSansBold"
+		KillButton.TextColor3 = Color3.new(255, 255, 255)
+		KillButton.Text = "Kill Aura"
+		KillButton.TextSize = 23
+		KillButton.Style = "RobloxRoundButton"
+		KillButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			KillAuraPage.Visible = true
+			CarTelePage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		CarButton.Parent = Scroll
+		CarButton.Name = "CarButton"
+		CarButton.BackgroundTransparency = 1
+		CarButton.BorderSizePixel = 0
+		CarButton.Position = UDim2.new(0, 5, 0, 165)
+		CarButton.Size = UDim2.new(0, 85, 0, 35)
+		CarButton.Font = "SourceSansBold"
+		CarButton.TextColor3 = Color3.new(255, 255, 255)
+		CarButton.Text = "Vehicles"
+		CarButton.TextSize = 23
+		CarButton.Style = "RobloxRoundButton"
+		CarButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			KillAuraPage.Visible = false
+			CarTelePage.Visible = true
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		-- Welcome Page Contents
+	
+		Welcome.Parent = WelcomePage
+		Welcome.Name = "Welcome"
+		Welcome.BackgroundTransparency = 1
+		Welcome.BorderSizePixel = 0
+		Welcome.Position = UDim2.new(0, 0, 0, 0)
+		Welcome.Size = UDim2.new(0, 180, 0, 35)
+		Welcome.Font = "SourceSansBold"
+		Welcome.TextColor3 = Color3.new(255, 255, 255)
+		Welcome.Text = "Welcome!"
+		Welcome.TextSize = 38
+	
+		Credits.Parent = WelcomePage
+		Credits.Name = "Credits"
+		Credits.BackgroundTransparency = 1
+		Credits.BorderSizePixel = 0
+		Credits.Position = UDim2.new(0, 0, 0, 35)
+		Credits.Size = UDim2.new(0, 180, 0, 25)
+		Credits.Font = "SourceSansBold"
+		Credits.TextColor3 = Color3.new(170/255, 0/255, 0/255)
+		Credits.Text = "Credits to all creators!"
+		Credits.TextSize = 18
+	
+		Credit2.Parent = WelcomePage
+		Credit2.Name = "Credit2"
+		Credit2.BackgroundTransparency = 1
+		Credit2.BorderSizePixel = 0
+		Credit2.Position = UDim2.new(0, 0, 0, 185)
+		Credit2.Size = UDim2.new(0, 135, 0, 35)
+		Credit2.Font = "SourceSansBold"
+		Credit2.TextColor3 = Color3.new(0, 255, 0)
+		Credit2.Text = "UI Created By"
+		Credit2.TextSize = 28
+	
+		TxtWall.Parent = WelcomePage
+		TxtWall.Name = "TxtWall"
+		TxtWall.BackgroundTransparency = 1
+		TxtWall.BorderSizePixel = 0
+		TxtWall.Position = UDim2.new(0, 0, 0, 65)
+		TxtWall.Size = UDim2.new(0, 180, 0, 120)
+		TxtWall.Font = "SourceSansBold"
+		TxtWall.TextColor3 = Color3.new(255, 255, 255)
+		TxtWall.Text = "I made this GUI because I saw the original GUI, which looked like absolute shit."
+		TxtWall.TextSize = 24
+		TxtWall.TextWrapped = true
+	
+		CredPic.Parent = Credit2
+		CredPic.Name = "CredPic"
+		CredPic.BackgroundTransparency = 1
+		CredPic.BorderSizePixel = 0
+		CredPic.Position = UDim2.new(0, 125, 0, -5)
+		CredPic.Size = UDim2.new(0, 55, 0, 50)
+		CredPic.Image = "rbxassetid://643508583"
+	
+		-- Weapons Page Contents
+	
+		WepTut.BackgroundTransparency = 1
+		WepTut.Size = UDim2.new(0, 180, 0, 35)
+		WepTut.Font = "SourceSansBold"
+		WepTut.Text = "Tutorial"
+		WepTut.TextColor3 = Color3.new(1, 1, 1)
+		WepTut.TextSize = 28
+		WepTut.Parent = WeaponsPage
+	
+		WepTxtWall.BackgroundTransparency = 1
+		WepTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		WepTxtWall.Size = UDim2.new(0, 180, 0, 75)
+		WepTxtWall.Font = Enum.Font.SourceSansBold
+		WepTxtWall.Text = "Click on the guns that you want to appear. If you're new to this, click on the weapon to equip it."
+		WepTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		WepTxtWall.TextWrapped = true
+		WepTxtWall.TextSize = 18
+		WepTxtWall.Parent = WepTut
+		WepTutSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		WepTutSep.BorderSizePixel = 0
+		WepTutSep.Position = UDim2.new(0, 15, 0, 115)
+		WepTutSep.Size = UDim2.new(0, 150, 0, 1)
+		WepTutSep.Parent = WeaponsPage
+	
+		WepButt1.Active = true
+		WepButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt1.Position = UDim2.new(0, 5, 0, 125)
+		WepButt1.Selectable = true
+		WepButt1.Size = UDim2.new(0, 80, 0, 35)
+		WepButt1.Font = "SourceSansBold"
+		WepButt1.Text = "AK-47"
+		WepButt1.TextColor3 = Color3.new(1, 1, 1)
+		WepButt1.TextSize = 18
+		WepButt1.Parent = WeaponsPage
+		WepButt1.MouseButton1Down:connect(function()
+			local AK47 = {"AK-47"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(AK47) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt2.Active = true
+		WepButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt2.Position = UDim2.new(0, 95, 0, 125)
+		WepButt2.Selectable = true
+		WepButt2.Size = UDim2.new(0, 80, 0, 35)
+		WepButt2.Font = "SourceSansBold"
+		WepButt2.Text = "M9"
+		WepButt2.TextColor3 = Color3.new(1, 1, 1)
+		WepButt2.TextSize = 18
+		WepButt2.Parent = WeaponsPage
+		WepButt2.MouseButton1Down:connect(function()
+			local M9 = {"M9"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M9) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt3.Active = true
+		WepButt3.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt3.Position = UDim2.new(0, 95, 0, 170)
+		WepButt3.Size = UDim2.new(0, 80, 0, 35)
+		WepButt3.Selectable = true
+		WepButt3.Font = "SourceSansBold"
+		WepButt3.Text = "REM 870"
+		WepButt3.TextColor3 = Color3.new(1, 1, 1)
+		WepButt3.TextSize = 18
+		WepButt3.Parent = WeaponsPage
+		WepButt3.MouseButton1Down:connect(function()
+			local Remington870 = {"Remington 870"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(Remington870) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt4.Active = true
+		WepButt4.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt4.Position = UDim2.new(0, 5, 0, 170)
+		WepButt4.Selectable = true
+		WepButt4.Size = UDim2.new(0, 80, 0, 35)
+		WepButt4.Font = "SourceSansBold"
+		WepButt4.Text = "M4A1"
+		WepButt4.TextColor3 = Color3.new(1, 1, 1)
+		WepButt4.TextSize = 18
+		WepButt4.Parent = WeaponsPage
+		WepButt4.MouseButton1Down:connect(function()
+			local M4A1 = {"M4A1"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M4A1) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		-- DoorPage Contents
+	
+		DoorTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTut.BackgroundTransparency = 1
+		DoorTut.Size = UDim2.new(0, 180, 0, 35)
+		DoorTut.Font = "SourceSansBold"
+		DoorTut.Text = "Tutorial"
+		DoorTut.TextColor3 = Color3.new(1, 1, 1)
+		DoorTut.TextSize = 28
+		DoorTut.Parent = DoorPage
+	
+		DoorTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTxtWall.BackgroundTransparency = 1
+		DoorTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		DoorTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		DoorTxtWall.Font = "SourceSansBold"
+		DoorTxtWall.Text = "When activated, all doors in the prison will be destroyed. Remember, since Prison Life is FE, the destroyed doors only work for YOU."
+		DoorTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		DoorTxtWall.TextSize = 18
+		DoorTxtWall.TextWrapped = true
+		DoorTxtWall.Parent = DoorTut
+	
+		DoorPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		DoorPageSep.BorderSizePixel = 0
+		DoorPageSep.Position = UDim2.new(0, 15, 0, 155)
+		DoorPageSep.Size = UDim2.new(0, 150, 0, 1)
+		DoorPageSep.Parent = DoorPage
+	
+		DoorButt.Active = true
+		DoorButt.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		DoorButt.Position = UDim2.new(0, 5, 0, 170)
+		DoorButt.Selectable = true
+		DoorButt.Size = UDim2.new(0, 170, 0, 50)
+		DoorButt.Font = "SourceSansBold"
+		DoorButt.Text = "Remove Doors"
+		DoorButt.TextColor3 = Color3.new(1, 1, 1)
+		DoorButt.TextSize = 24
+		DoorButt.Parent = DoorPage
+	
+		-- Buttons
+	
+		WeaponsButton.Parent = Scroll
+		WeaponsButton.Name = "WeaponsButton"
+		WeaponsButton.BackgroundTransparency = 1
+		WeaponsButton.BorderSizePixel = 0
+		WeaponsButton.Position = UDim2.new(0, 5, 0, 5)
+		WeaponsButton.Size = UDim2.new(0, 85, 0, 35)
+		WeaponsButton.Font = "SourceSansBold"
+		WeaponsButton.TextColor3 = Color3.new(255, 255, 255)
+		WeaponsButton.Text = "Weapons"
+		WeaponsButton.TextSize = 24
+		WeaponsButton.Style = "RobloxRoundButton"
+		WeaponsButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = true
+			TeleportPage.Visible = false
+			DoorPage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		TeleportButton.Parent = Scroll
+		TeleportButton.Name = "TeleportButton"
+		TeleportButton.BackgroundTransparency = 1
+		TeleportButton.BorderSizePixel = 0
+		TeleportButton.Position = UDim2.new(0, 5, 0, 45)
+		TeleportButton.Size = UDim2.new(0, 85, 0, 35)
+		TeleportButton.Font = "SourceSansBold"
+		TeleportButton.TextColor3 = Color3.new(255, 255, 255)
+		TeleportButton.Text = "Teleports"
+		TeleportButton.TextSize = 22
+		TeleportButton.Style = "RobloxRoundButton"
+		TeleportButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = true
+			DoorPage.Visible = false
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		DoorButton.Parent = Scroll
+		DoorButton.Name = "DoorButton"
+		DoorButton.BackgroundTransparency = 1
+		DoorButton.BorderSizePixel = 0
+		DoorButton.Position = UDim2.new(0, 5, 0, 85)
+		DoorButton.Size = UDim2.new(0, 85, 0, 35)
+		DoorButton.Font = "SourceSansBold"
+		DoorButton.TextColor3 = Color3.new(255, 255, 255)
+		DoorButton.Text = "Remove Doors"
+		DoorButton.TextSize = 14
+		DoorButton.Style = "RobloxRoundButton"
+		DoorButton.MouseButton1Down:connect(function()
+			WeaponsPage.Visible = false
+			TeleportPage.Visible = false
+			DoorPage.Visible = true
+			WelcomePage.Active = false
+			WelcomePage.Visible = false
+		end)
+	
+		-- Welcome Page Contents
+	
+		Welcome.Parent = WelcomePage
+		Welcome.Name = "Welcome"
+		Welcome.BackgroundTransparency = 1
+		Welcome.BorderSizePixel = 0
+		Welcome.Position = UDim2.new(0, 0, 0, 0)
+		Welcome.Size = UDim2.new(0, 180, 0, 35)
+		Welcome.Font = "SourceSansBold"
+		Welcome.TextColor3 = Color3.new(255, 255, 255)
+		Welcome.Text = "Welcome!"
+		Welcome.TextSize = 38
+	
+		Credits.Parent = WelcomePage
+		Credits.Name = "Credits"
+		Credits.BackgroundTransparency = 1
+		Credits.BorderSizePixel = 0
+		Credits.Position = UDim2.new(0, 0, 0, 35)
+		Credits.Size = UDim2.new(0, 180, 0, 25)
+		Credits.Font = "SourceSansBold"
+		Credits.TextColor3 = Color3.new(170/255, 0/255, 0/255)
+		Credits.Text = "Credits to all creators!"
+		Credits.TextSize = 18
+	
+		Credit2.Parent = WelcomePage
+		Credit2.Name = "Credit2"
+		Credit2.BackgroundTransparency = 1
+		Credit2.BorderSizePixel = 0
+		Credit2.Position = UDim2.new(0, 0, 0, 185)
+		Credit2.Size = UDim2.new(0, 135, 0, 35)
+		Credit2.Font = "SourceSansBold"
+		Credit2.TextColor3 = Color3.new(0, 255, 0)
+		Credit2.Text = "UI Created By"
+		Credit2.TextSize = 28
+	
+		TxtWall.Parent = WelcomePage
+		TxtWall.Name = "TxtWall"
+		TxtWall.BackgroundTransparency = 1
+		TxtWall.BorderSizePixel = 0
+		TxtWall.Position = UDim2.new(0, 0, 0, 65)
+		TxtWall.Size = UDim2.new(0, 180, 0, 120)
+		TxtWall.Font = "SourceSansBold"
+		TxtWall.TextColor3 = Color3.new(255, 255, 255)
+		TxtWall.Text = "I made this GUI because I saw the original GUI, which looked like absolute shit."
+		TxtWall.TextSize = 24
+		TxtWall.TextWrapped = true
+	
+		CredPic.Parent = Credit2
+		CredPic.Name = "CredPic"
+		CredPic.BackgroundTransparency = 1
+		CredPic.BorderSizePixel = 0
+		CredPic.Position = UDim2.new(0, 125, 0, -5)
+		CredPic.Size = UDim2.new(0, 55, 0, 50)
+		CredPic.Image = "rbxassetid://643508583"
+	
+		-- Weapons Page Contents
+	
+		WepTut.BackgroundTransparency = 1
+		WepTut.Size = UDim2.new(0, 180, 0, 35)
+		WepTut.Font = "SourceSansBold"
+		WepTut.Text = "Tutorial"
+		WepTut.TextColor3 = Color3.new(1, 1, 1)
+		WepTut.TextSize = 28
+		WepTut.Parent = WeaponsPage
+	
+		WepTxtWall.BackgroundTransparency = 1
+		WepTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		WepTxtWall.Size = UDim2.new(0, 180, 0, 75)
+		WepTxtWall.Font = Enum.Font.SourceSansBold
+		WepTxtWall.Text = "Click on the guns that you want to appear. If you're new to this, click on the weapon to equip it."
+		WepTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		WepTxtWall.TextWrapped = true
+		WepTxtWall.TextSize = 18
+		WepTxtWall.Parent = WepTut
+		WepTutSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		WepTutSep.BorderSizePixel = 0
+		WepTutSep.Position = UDim2.new(0, 15, 0, 115)
+		WepTutSep.Size = UDim2.new(0, 150, 0, 1)
+		WepTutSep.Parent = WeaponsPage
+	
+		WepButt1.Active = true
+		WepButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt1.Position = UDim2.new(0, 5, 0, 125)
+		WepButt1.Selectable = true
+		WepButt1.Size = UDim2.new(0, 80, 0, 35)
+		WepButt1.Font = "SourceSansBold"
+		WepButt1.Text = "AK-47"
+		WepButt1.TextColor3 = Color3.new(1, 1, 1)
+		WepButt1.TextSize = 18
+		WepButt1.Parent = WeaponsPage
+		WepButt1.MouseButton1Down:connect(function()
+			local AK47 = {"AK-47"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(AK47) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt2.Active = true
+		WepButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt2.Position = UDim2.new(0, 95, 0, 125)
+		WepButt2.Selectable = true
+		WepButt2.Size = UDim2.new(0, 80, 0, 35)
+		WepButt2.Font = "SourceSansBold"
+		WepButt2.Text = "M9"
+		WepButt2.TextColor3 = Color3.new(1, 1, 1)
+		WepButt2.TextSize = 18
+		WepButt2.Parent = WeaponsPage
+		WepButt2.MouseButton1Down:connect(function()
+			local M9 = {"M9"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M9) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt3.Active = true
+		WepButt3.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt3.Position = UDim2.new(0, 95, 0, 170)
+		WepButt3.Size = UDim2.new(0, 80, 0, 35)
+		WepButt3.Selectable = true
+		WepButt3.Font = "SourceSansBold"
+		WepButt3.Text = "REM 870"
+		WepButt3.TextColor3 = Color3.new(1, 1, 1)
+		WepButt3.TextSize = 18
+		WepButt3.Parent = WeaponsPage
+		WepButt3.MouseButton1Down:connect(function()
+			local Remington870 = {"Remington 870"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(Remington870) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		WepButt4.Active = true
+		WepButt4.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		WepButt4.Position = UDim2.new(0, 5, 0, 170)
+		WepButt4.Selectable = true
+		WepButt4.Size = UDim2.new(0, 80, 0, 35)
+		WepButt4.Font = "SourceSansBold"
+		WepButt4.Text = "M4A1"
+		WepButt4.TextColor3 = Color3.new(1, 1, 1)
+		WepButt4.TextSize = 18
+		WepButt4.Parent = WeaponsPage
+		WepButt4.MouseButton1Down:connect(function()
+			local M4A1 = {"M4A1"}
+			for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+				for j, k in pairs(M4A1) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+					end
+				end
+			end
+		end)
+	
+		-- DoorPage Contents
+	
+		DoorTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTut.BackgroundTransparency = 1
+		DoorTut.Size = UDim2.new(0, 180, 0, 35)
+		DoorTut.Font = "SourceSansBold"
+		DoorTut.Text = "Tutorial"
+		DoorTut.TextColor3 = Color3.new(1, 1, 1)
+		DoorTut.TextSize = 28
+		DoorTut.Parent = DoorPage
+	
+		DoorTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		DoorTxtWall.BackgroundTransparency = 1
+		DoorTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		DoorTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		DoorTxtWall.Font = "SourceSansBold"
+		DoorTxtWall.Text = "When activated, all doors in the prison will be destroyed. Remember, since Prison Life is FE, the destroyed doors only work for YOU."
+		DoorTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		DoorTxtWall.TextSize = 18
+		DoorTxtWall.TextWrapped = true
+		DoorTxtWall.Parent = DoorTut
+	
+		DoorPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		DoorPageSep.BorderSizePixel = 0
+		DoorPageSep.Position = UDim2.new(0, 15, 0, 155)
+		DoorPageSep.Size = UDim2.new(0, 150, 0, 1)
+		DoorPageSep.Parent = DoorPage
+	
+		DoorButt.Active = true
+		DoorButt.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		DoorButt.Position = UDim2.new(0, 5, 0, 170)
+		DoorButt.Selectable = true
+		DoorButt.Size = UDim2.new(0, 170, 0, 50)
+		DoorButt.Font = "SourceSansBold"
+		DoorButt.Text = "Remove Doors"
+		DoorButt.TextColor3 = Color3.new(1, 1, 1)
+		DoorButt.TextSize = 24
+		DoorButt.Parent = DoorPage
+		DoorButt.MouseButton1Down:connect(function()
+			game.Workspace.Doors:Destroy()
+		end)
+	
+		-- Teleport Page Contents
+	
+		TeleTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		TeleTut.BackgroundTransparency = 1
+		TeleTut.Size = UDim2.new(0, 180, 0, 35)
+		TeleTut.Font = "SourceSansBold"
+		TeleTut.Text = "Tutorial"
+		TeleTut.TextColor3 = Color3.new(1, 1, 1)
+		TeleTut.TextSize = 28
+		TeleTut.Parent = TeleportPage
+	
+		TeleTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		TeleTxtWall.BackgroundTransparency = 1
+		TeleTxtWall.Parent = TeleTut
+		TeleTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		TeleTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		TeleTxtWall.Font = "SourceSansBold"
+		TeleTxtWall.TextSize = 18
+		TeleTxtWall.Text = "Click on the areas you want to teleport to. They're pretty self explanitory, so I don't think I need to explain further."
+		TeleTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		TeleTxtWall.TextWrapped = true
+	
+		TeleButt1.Active = true
+		TeleButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt1.Position = UDim2.new(0, 22, 0, 170)
+		TeleButt1.Selectable = true
+		TeleButt1.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt1.Font = "SourceSansBold"
+		TeleButt1.Text = "Outside Prison"
+		TeleButt1.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt1.TextSize = 18
+		TeleButt1.Parent = TeleportPage
+		TeleButt1.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.452, 69.999, 2206.731)
+		end)
+	
+		TeleButt2.Active = true
+		TeleButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt2.Position = UDim2.new(0, 22, 0, 210)
+		TeleButt2.Selectable = true
+		TeleButt2.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt2.Font = "SourceSansBold"
+		TeleButt2.Text = "Criminal Inside"
+		TeleButt2.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt2.TextSize = 18
+		TeleButt2.Parent = TeleportPage
+		TeleButt2.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-943.704, 91.632, 2056.925)
+		end)
+	
+		TeleButt3.Active = true
+		TeleButt3.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt3.Position = UDim2.new(0, 22, 0, 250)
+		TeleButt3.Selectable = true
+		TeleButt3.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt3.Font = "SourceSansBold"
+		TeleButt3.Text = "Criminal Outside"
+		TeleButt3.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt3.TextSize = 18
+		TeleButt3.Parent = TeleportPage
+		TeleButt3.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-919.958, 95.327, 2138.189)
+		end)
+	
+		TeleButt4.Active = true
+		TeleButt4.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt4.Position = UDim2.new(0, 22, 0, 290)
+		TeleButt4.Selectable = true
+		TeleButt4.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt4.Font = "SourceSansBold"
+		TeleButt4.Text = "Police Room"
+		TeleButt4.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt4.TextSize = 18
+		TeleButt4.Parent = TeleportPage
+		TeleButt4.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(834.972, 99.989, 2275.318)
+		end)
+	
+		TeleButt5.Active = true
+		TeleButt5.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt5.Position = UDim2.new(0, 22, 0, 330)
+		TeleButt5.Selectable = true
+		TeleButt5.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt5.Font = "SourceSansBold"
+		TeleButt5.Text = "Yard"
+		TeleButt5.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt5.TextSize = 18
+		TeleButt5.Parent = TeleportPage
+		TeleButt5.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(779.092, 96.001, 2451.114)
+		end)
+	
+		TeleButt6.Active = true
+		TeleButt6.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt6.Position = UDim2.new(0, 22, 0, 370)
+		TeleButt6.Selectable = true
+		TeleButt6.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt6.Font = "SourceSansBold"
+		TeleButt6.Text = "Cafeteria"
+		TeleButt6.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt6.TextSize = 18
+		TeleButt6.Parent = TeleportPage
+		TeleButt6.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(930, 97.54, 2291)
+		end)
+	
+		TeleButt7.Active = true
+		TeleButt7.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt7.Position = UDim2.new(0, 22, 0, 410)
+		TeleButt7.Selectable = true
+		TeleButt7.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt7.Font = "SourceSansBold"
+		TeleButt7.Text = "Cells"
+		TeleButt7.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt7.TextSize = 18
+		TeleButt7.Parent = TeleportPage
+		TeleButt7.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918, 97.73, 2447)
+		end)
+	
+		TeleButt8.Active = true
+		TeleButt8.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt8.Position = UDim2.new(0, 22, 0, 450)
+		TeleButt8.Selectable = true
+		TeleButt8.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt8.Font = "SourceSansBold"
+		TeleButt8.Text = "Sewer Enterance"
+		TeleButt8.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt8.TextSize = 18
+		TeleButt8.Parent = TeleportPage
+		TeleButt8.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(917.174, 76.406, 2426.199)
+		end)
+	
+		TeleButt9.Active = true
+		TeleButt9.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt9.Position = UDim2.new(0, 22, 0, 490)
+		TeleButt9.Selectable = true
+		TeleButt9.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt9.Font = "SourceSansBold"
+		TeleButt9.Text = "Sewer Exit"
+		TeleButt9.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt9.TextSize = 18
+		TeleButt9.Parent = TeleportPage
+		TeleButt9.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(916.506, 96.285, 2111.396)
+		end)
+	
+		TeleButt10.Active = true
+		TeleButt10.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		TeleButt10.Position = UDim2.new(0, 22, 0, 530)
+		TeleButt10.Selectable = true
+		TeleButt10.Size = UDim2.new(0, 135, 0, 35)
+		TeleButt10.Font = "SourceSansBold"
+		TeleButt10.Text = "Secret Room"
+		TeleButt10.TextColor3 = Color3.new(1, 1, 1)
+		TeleButt10.TextSize = 18
+		TeleButt10.Parent = TeleportPage
+		TeleButt10.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(697, 97.492, 2364)
+		end)
+	
+		-- Kill Aura Page Contents
+	
+		KillTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		KillTut.BackgroundTransparency = 1
+		KillTut.Size = UDim2.new(0, 180, 0, 35)
+		KillTut.Font = "SourceSansBold"
+		KillTut.Text = "Tutorial"
+		KillTut.TextColor3 = Color3.new(1, 1, 1)
+		KillTut.TextSize = 28
+		KillTut.Parent = KillAuraPage
+	
+		KillTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		KillTxtWall.BackgroundTransparency = 1
+		KillTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		KillTxtWall.Size = UDim2.new(0, 180, 0, 115)
+		KillTxtWall.Font = "SourceSansBold"
+		KillTxtWall.Text = "When activated, everybody you walk close to will be killed. To turn this off, simply click the button again."
+		KillTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		KillTxtWall.TextSize = 18
+		KillTxtWall.TextWrapped = true
+		KillTxtWall.Parent = KillTut
+	
+		KillPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		KillPageSep.BorderSizePixel = 0
+		KillPageSep.Position = UDim2.new(0, 15, 0, 155)
+		KillPageSep.Size = UDim2.new(0, 150, 0, 1)
+		KillPageSep.Parent = KillAuraPage
+	
+		KillButt.Active = true
+		KillButt.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		KillButt.Position = UDim2.new(0, 5, 0, 170)
+		KillButt.Selectable = true
+		KillButt.Size = UDim2.new(0, 170, 0, 50)
+		KillButt.Font = "SourceSansBold"
+		KillButt.Text = "GO!"
+		KillButt.TextColor3 = Color3.new(1, 1, 1)
+		KillButt.TextSize = 24
+		KillButt.Parent = KillAuraPage
+		KillButt.MouseButton1Down:connect(function()
+			while wait(0.1) do
+				for i, plr in pairs(game.Players:GetChildren()) do
+					if plr.Name ~= game.Players.LocalPlayer.Name then
+						for i = 1, 10 do
+							game.ReplicatedStorage.meleeEvent:FireServer(plr)
+						end
+					end
+				end
+			end
+		end)
+	
+		-- Car Teleport Page Contents
+	
+		CarTut.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		CarTut.BackgroundTransparency = 1
+		CarTut.Size = UDim2.new(0, 180, 0, 35)
+		CarTut.Font = "SourceSansBold"
+		CarTut.Text = "Tutorial"
+		CarTut.TextColor3 = Color3.new(1, 1, 1)
+		CarTut.TextSize = 28
+		CarTut.Parent = CarTelePage
+	
+		CarTxtWall.BackgroundColor3 = Color3.new(0.639216, 0.635294, 0.647059)
+		CarTxtWall.BackgroundTransparency = 1
+		CarTxtWall.Position = UDim2.new(0, 0, 0, 35)
+		CarTxtWall.Size = UDim2.new(0, 180, 0, 85)
+		CarTxtWall.Font = "SourceSansBold"
+		CarTxtWall.Text = "Click on a car that you want to teleport to yourself. I'm pretty sure this is server-sided."
+		CarTxtWall.TextColor3 = Color3.new(1, 1, 1)
+		CarTxtWall.TextSize = 18
+		CarTxtWall.TextWrapped = true
+		CarTxtWall.Parent = CarTut
+	
+		CarPageSep.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		CarPageSep.BorderSizePixel = 0
+		CarPageSep.Position = UDim2.new(0, 15, 0, 125)
+		CarPageSep.Size = UDim2.new(0, 150, 0, 1)
+		CarPageSep.Parent = CarTelePage
+	
+		CarTeleButt1.Active = true
+		CarTeleButt1.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		CarTeleButt1.Position = UDim2.new(0, 27, 0, 135)
+		CarTeleButt1.Selectable = true
+		CarTeleButt1.Size = UDim2.new(0, 125, 0, 35)
+		CarTeleButt1.Font = "SourceSansBold"
+		CarTeleButt1.Text = "Sedan Teleport"
+		CarTeleButt1.TextColor3 = Color3.new(1, 1, 1)
+		CarTeleButt1.TextSize = 18
+		CarTeleButt1.Parent = CarTelePage
+		CarTeleButt1.MouseButton1Down:connect(function()
+			local Cars = {"Sedan"}
+			for i, v in pairs(game.Workspace["CarContainer"]:GetChildren()) do
+				for j, k in pairs(Cars) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+						wait(.1)
+						v.Parent = game.Workspace
+					end
+				end
+			end
+		end)
+	
+		CarTeleButt2.Active = true
+		CarTeleButt2.BackgroundColor3 = Color3.new(0, 0.411765, 0.603922)
+		CarTeleButt2.Position = UDim2.new(0, 27, 0, 180)
+		CarTeleButt2.Selectable = true
+		CarTeleButt2.Size = UDim2.new(0, 125, 0, 35)
+		CarTeleButt2.Font = "SourceSansBold"
+		CarTeleButt2.Text = "Squad Teleport"
+		CarTeleButt2.TextColor3 = Color3.new(1, 1, 1)
+		CarTeleButt2.TextSize = 18
+		CarTeleButt2.Parent = CarTelePage
+		CarTeleButt2.MouseButton1Down:connect(function()
+			local Cars = {"Squad"}
+			for i, v in pairs(game.Workspace["CarContainer"]:GetChildren()) do
+				for j, k in pairs(Cars) do
+					if v.Name == k then
+						v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+						wait(.1)
+						v.Parent = game.Workspace
+					end
+				end
+			end
+		end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	end)
+end
+coroutine.wrap(JPJPQ_fake_script)()
+local function GXJO_fake_script() -- Arsenal_2.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local espcolor = Color3.fromRGB(140, 69, 102)
+		local wallhack_esp_transparency = .4
+		local gui_hide_button = {Enum.KeyCode.LeftControl, "h"}
+		local plrs = game:GetService("Players")
+		local lplr = game:GetService("Players").LocalPlayer
+		local TeamBased = true ; local teambasedswitch = "o"
+		local presskeytoaim = true; local aimkey = "e"
+		aimbothider = false; aimbothiderspeed = .5
+		local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
+		local espupdatetime = 5; autoesp = false
+		local abs = math.abs
+		local mouselock = false
+		local canaimat = true
+		local lockaim = true; local lockangle = 5
+		local ver = "2"
+		local cam = game.Workspace.CurrentCamera
+		local BetterDeathCount = true
+	
+	
+		local mouse = lplr:GetMouse()
+		local switch = false
+		local key = "k"
+		local aimatpart = nil
+	
+		local CCAimbot = Instance.new("ScreenGui")
+		local AimbotFrame = Instance.new("Frame")
+		local MainAimbotFrame = Instance.new("Frame")
+		local N2 = Instance.new("Frame")
+		local CheatType = Instance.new("TextLabel")
+		local N2_2 = Instance.new("Frame")
+		local CheatType_2 = Instance.new("TextLabel")
+		local N1 = Instance.new("Frame")
+		local CheatType_3 = Instance.new("TextLabel")
+		local C5 = Instance.new("Frame")
+		local Letters = Instance.new("TextLabel")
+		local CheatType_4 = Instance.new("TextLabel")
+		local C4 = Instance.new("Frame")
+		local Letters_2 = Instance.new("TextLabel")
+		local CheatType_5 = Instance.new("TextLabel")
+		local C3 = Instance.new("Frame")
+		local Letters_3 = Instance.new("TextLabel")
+		local CheatType_6 = Instance.new("TextLabel")
+		local C2 = Instance.new("Frame")
+		local Letters_4 = Instance.new("TextLabel")
+		local CheatType_7 = Instance.new("TextLabel")
+		local C1 = Instance.new("Frame")
+		local Letters_5 = Instance.new("TextLabel")
+		local CheatType_8 = Instance.new("TextLabel")
+		local TabFrame = Instance.new("Frame")
+		local Title = Instance.new("TextLabel")
+		local Exit = Instance.new("TextButton")
+		local Hide = Instance.new("TextButton")
+	
+		--Properties:
+	
+		CCAimbot.Name = "CCAimbot"
+		CCAimbot.Parent = game.Players.LocalPlayer.PlayerGui
+	
+		AimbotFrame.Name = "AimbotFrame"
+		AimbotFrame.Parent = CCAimbot
+		AimbotFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+		AimbotFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		AimbotFrame.BackgroundTransparency = 1.000
+		AimbotFrame.BorderSizePixel = 0
+		AimbotFrame.ClipsDescendants = true
+		AimbotFrame.Position = UDim2.new(0.5, 0, 0.479495257, 0)
+		AimbotFrame.Size = UDim2.new(0, 195, 0, 259)
+	
+		MainAimbotFrame.Name = "MainAimbotFrame"
+		MainAimbotFrame.Parent = AimbotFrame
+		MainAimbotFrame.BackgroundColor3 = Color3.fromRGB(23, 24, 28)
+		MainAimbotFrame.BorderSizePixel = 0
+		MainAimbotFrame.ClipsDescendants = true
+		MainAimbotFrame.Position = UDim2.new(-0.00256413221, 0, 0.0464286208, 0)
+		MainAimbotFrame.Size = UDim2.new(0, 195, 0, 245)
+	
+		N2.Name = "N2"
+		N2.Parent = MainAimbotFrame
+		N2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		N2.BackgroundTransparency = 1.000
+		N2.BorderSizePixel = 0
+		N2.Position = UDim2.new(0, 0, 0.562231719, 0)
+		N2.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		CheatType.Name = "CheatType"
+		CheatType.Parent = N2
+		CheatType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType.BackgroundTransparency = 1.000
+		CheatType.BorderSizePixel = 0
+		CheatType.Position = UDim2.new(0, 0, 2.03163123, 0)
+		CheatType.Size = UDim2.new(1, 0, 1.05753362, 0)
+		CheatType.Font = Enum.Font.GothamBlack
+		CheatType.Text = "ESP Loop : False"
+		CheatType.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType.TextSize = 15.000
+		CheatType.TextWrapped = true
+	
+		N2_2.Name = "N2"
+		N2_2.Parent = MainAimbotFrame
+		N2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		N2_2.BackgroundTransparency = 1.000
+		N2_2.BorderSizePixel = 0
+		N2_2.Position = UDim2.new(0, 0, 0.935622334, 0)
+		N2_2.Size = UDim2.new(1, 0, 0.0613734461, 0)
+	
+		CheatType_2.Name = "CheatType"
+		CheatType_2.Parent = N2_2
+		CheatType_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_2.BackgroundTransparency = 1.000
+		CheatType_2.BorderSizePixel = 0
+		CheatType_2.Size = UDim2.new(1, 0, 1, 0)
+		CheatType_2.Font = Enum.Font.Gotham
+		CheatType_2.Text = "Letters Corrospond with Keybinds"
+		CheatType_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_2.TextScaled = true
+		CheatType_2.TextSize = 15.000
+		CheatType_2.TextWrapped = true
+	
+		N1.Name = "N1"
+		N1.Parent = MainAimbotFrame
+		N1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		N1.BackgroundTransparency = 1.000
+		N1.BorderSizePixel = 0
+		N1.Position = UDim2.new(0, 0, 0.562231719, 0)
+		N1.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		CheatType_3.Name = "CheatType"
+		CheatType_3.Parent = N1
+		CheatType_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_3.BackgroundTransparency = 1.000
+		CheatType_3.BorderSizePixel = 0
+		CheatType_3.Position = UDim2.new(0, 0, 0.987714529, 0)
+		CheatType_3.Size = UDim2.new(1, 0, 1.05753362, 0)
+		CheatType_3.Font = Enum.Font.GothamBlack
+		CheatType_3.Text = "Team Based : True"
+		CheatType_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_3.TextSize = 15.000
+		CheatType_3.TextWrapped = true
+	
+		C5.Name = "C5"
+		C5.Parent = MainAimbotFrame
+		C5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C5.BackgroundTransparency = 1.000
+		C5.BorderSizePixel = 0
+		C5.Position = UDim2.new(-0.00512820529, 0, 0.459227443, 0)
+		C5.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters.Name = "Letters"
+		Letters.Parent = C5
+		Letters.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters.BackgroundTransparency = 1.000
+		Letters.BorderSizePixel = 0
+		Letters.Position = UDim2.new(0.730999887, 0, 0.973926187, 0)
+		Letters.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters.Font = Enum.Font.GothamBold
+		Letters.Text = "O"
+		Letters.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters.TextSize = 15.000
+		Letters.TextWrapped = true
+	
+		CheatType_4.Name = "CheatType"
+		CheatType_4.Parent = C5
+		CheatType_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_4.BackgroundTransparency = 1.000
+		CheatType_4.BorderSizePixel = 0
+		CheatType_4.Position = UDim2.new(0.0307692308, 0, 0.97837925, 0)
+		CheatType_4.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_4.Font = Enum.Font.GothamBold
+		CheatType_4.Text = "Team Based"
+		CheatType_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_4.TextSize = 15.000
+		CheatType_4.TextWrapped = true
+		CheatType_4.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C4.Name = "C4"
+		C4.Parent = MainAimbotFrame
+		C4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C4.BackgroundTransparency = 1.000
+		C4.BorderSizePixel = 0
+		C4.Position = UDim2.new(0, 0, 0.356223166, 0)
+		C4.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_2.Name = "Letters"
+		Letters_2.Parent = C4
+		Letters_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_2.BackgroundTransparency = 1.000
+		Letters_2.BorderSizePixel = 0
+		Letters_2.Position = UDim2.new(0.730999887, 0, 0.914663553, 0)
+		Letters_2.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_2.Font = Enum.Font.GothamBold
+		Letters_2.Text = "Y"
+		Letters_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_2.TextSize = 15.000
+		Letters_2.TextWrapped = true
+	
+		CheatType_5.Name = "CheatType"
+		CheatType_5.Parent = C4
+		CheatType_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_5.BackgroundTransparency = 1.000
+		CheatType_5.BorderSizePixel = 0
+		CheatType_5.Position = UDim2.new(0.0307692308, 0, 0.919116616, 0)
+		CheatType_5.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_5.Font = Enum.Font.GothamBold
+		CheatType_5.Text = "Aimbot Hider"
+		CheatType_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_5.TextSize = 15.000
+		CheatType_5.TextWrapped = true
+		CheatType_5.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C3.Name = "C3"
+		C3.Parent = MainAimbotFrame
+		C3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C3.BackgroundTransparency = 1.000
+		C3.BorderSizePixel = 0
+		C3.Position = UDim2.new(0, 0, 0.253218889, 0)
+		C3.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_3.Name = "Letters"
+		Letters_3.Parent = C3
+		Letters_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_3.BackgroundTransparency = 1.000
+		Letters_3.BorderSizePixel = 0
+		Letters_3.Position = UDim2.new(0.730999887, 0, 0.855401516, 0)
+		Letters_3.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_3.Font = Enum.Font.GothamBold
+		Letters_3.Text = "L"
+		Letters_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_3.TextSize = 15.000
+		Letters_3.TextWrapped = true
+	
+		CheatType_6.Name = "CheatType"
+		CheatType_6.Parent = C3
+		CheatType_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_6.BackgroundTransparency = 1.000
+		CheatType_6.BorderSizePixel = 0
+		CheatType_6.Position = UDim2.new(0.0307692308, 0, 0.859854579, 0)
+		CheatType_6.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_6.Font = Enum.Font.GothamBold
+		CheatType_6.Text = "ESP Loop"
+		CheatType_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_6.TextSize = 15.000
+		CheatType_6.TextWrapped = true
+		CheatType_6.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C2.Name = "C2"
+		C2.Parent = MainAimbotFrame
+		C2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C2.BackgroundTransparency = 1.000
+		C2.BorderSizePixel = 0
+		C2.Position = UDim2.new(0, 0, 0.150214598, 0)
+		C2.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_4.Name = "Letters"
+		Letters_4.Parent = C2
+		Letters_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_4.BackgroundTransparency = 1.000
+		Letters_4.BorderSizePixel = 0
+		Letters_4.Position = UDim2.new(0.730999887, 0, 0.796139479, 0)
+		Letters_4.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_4.Font = Enum.Font.GothamBold
+		Letters_4.Text = "T"
+		Letters_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_4.TextSize = 15.000
+		Letters_4.TextWrapped = true
+	
+		CheatType_7.Name = "CheatType"
+		CheatType_7.Parent = C2
+		CheatType_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_7.BackgroundTransparency = 1.000
+		CheatType_7.BorderSizePixel = 0
+		CheatType_7.Position = UDim2.new(0.0307692308, 0, 0.800592542, 0)
+		CheatType_7.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_7.Font = Enum.Font.GothamBold
+		CheatType_7.Text = "ESP"
+		CheatType_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_7.TextSize = 15.000
+		CheatType_7.TextWrapped = true
+		CheatType_7.TextXAlignment = Enum.TextXAlignment.Left
+	
+		C1.Name = "C1"
+		C1.Parent = MainAimbotFrame
+		C1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		C1.BackgroundTransparency = 1.000
+		C1.BorderSizePixel = 0
+		C1.Position = UDim2.new(0, 0, 0.0472103022, 0)
+		C1.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Letters_5.Name = "Letters"
+		Letters_5.Parent = C1
+		Letters_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_5.BackgroundTransparency = 1.000
+		Letters_5.BorderSizePixel = 0
+		Letters_5.Position = UDim2.new(0.730999887, 0, 0.736877441, 0)
+		Letters_5.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
+		Letters_5.Font = Enum.Font.GothamBold
+		Letters_5.Text = "E"
+		Letters_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Letters_5.TextSize = 15.000
+		Letters_5.TextWrapped = true
+	
+		CheatType_8.Name = "CheatType"
+		CheatType_8.Parent = C1
+		CheatType_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_8.BackgroundTransparency = 1.000
+		CheatType_8.BorderSizePixel = 0
+		CheatType_8.Position = UDim2.new(0.0307692308, 0, 0.741330564, 0)
+		CheatType_8.Size = UDim2.new(0.699999988, 0, 1.05753362, 0)
+		CheatType_8.Font = Enum.Font.GothamBold
+		CheatType_8.Text = "Lock-in Person"
+		CheatType_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CheatType_8.TextSize = 15.000
+		CheatType_8.TextWrapped = true
+		CheatType_8.TextXAlignment = Enum.TextXAlignment.Left
+	
+		TabFrame.Name = "TabFrame"
+		TabFrame.Parent = AimbotFrame
+		TabFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+		TabFrame.BackgroundColor3 = Color3.fromRGB(0, 237, 206)
+		TabFrame.BorderSizePixel = 0
+		TabFrame.ClipsDescendants = true
+		TabFrame.Position = UDim2.new(0.497435898, 0, 0.0926640928, 0)
+		TabFrame.Size = UDim2.new(1, 0, 0.100000001, 0)
+	
+		Title.Name = "Title"
+		Title.Parent = TabFrame
+		Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Title.BackgroundTransparency = 1.000
+		Title.BorderSizePixel = 0
+		Title.Position = UDim2.new(0.0307692308, 0, 0, 0)
+		Title.Size = UDim2.new(0.41538462, 0, 1, 0)
+		Title.Font = Enum.Font.GothamBold
+		Title.Text = "CC AIMBOT"
+		Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title.TextSize = 14.000
+		Title.TextXAlignment = Enum.TextXAlignment.Left
+	
+		Exit.Name = "Exit"
+		Exit.Parent = TabFrame
+		Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Exit.BackgroundTransparency = 1.000
+		Exit.BorderSizePixel = 0
+		Exit.Position = UDim2.new(0.899999976, 0, 0, 0)
+		Exit.Size = UDim2.new(0.100000001, 0, 1, 0)
+		Exit.Font = Enum.Font.GothamBold
+		Exit.Text = "X"
+		Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Exit.TextScaled = true
+		Exit.TextSize = 14.000
+		Exit.TextWrapped = true
+	
+		Hide.Name = "Hide"
+		Hide.Parent = TabFrame
+		Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Hide.BackgroundTransparency = 1.000
+		Hide.BorderSizePixel = 0
+		Hide.Position = UDim2.new(0.79743588, 0, 0, 0)
+		Hide.Size = UDim2.new(0.100000001, 0, 1, 0)
+		Hide.Font = Enum.Font.GothamBold
+		Hide.Text = "-"
+		Hide.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Hide.TextScaled = true
+		Hide.TextSize = 14.000
+		Hide.TextWrapped = true
+	
+		-- Scripts:
+	
+		local function JLYIY_fake_script() -- Exit.LocalScript 
+			local script = Instance.new('LocalScript', Exit)
+	
+			local b = script.Parent
+	
+			b.MouseButton1Down:connect(function()
+				b.Parent.Parent.AnchorPoint = Vector2.new(0.5, 0.5)
+				b.Parent.Parent:TweenSize(UDim2.new(0, 0, 0, 0), "In", 2, 0.5)
+			end)
+		end
+		coroutine.wrap(JLYIY_fake_script)()
+		local function CXSQXNO_fake_script() -- Hide.LocalScript 
+			local script = Instance.new('LocalScript', Hide)
+	
+			local b = script.Parent
+			local closed = false
+	
+			b.MouseButton1Down:connect(function()
+				if closed == false then
+					b.Parent.Parent.MainAimbotFrame:TweenSize(UDim2.new(0, 195, 0, 25), "Out", 1.5, 0.5)
+					closed = true
+	
+				elseif closed == true then
+					b.Parent.Parent.MainAimbotFrame:TweenSize(UDim2.new(0, 195, 0, 245), "Out", 1.5, 0.5)
+					closed = false
+				end
+	
+			end)
+		end
+		coroutine.wrap(CXSQXNO_fake_script)()
+	
+		f = {}
+		local espforlder
+		local partconverter = Instance.new("Part")
+	
+		f.addesp = function()
+			pcall(function()
+				--print("ESP ran")
+				if espforlder then
+					espforlder:Destroy()
+					espforlder = Instance.new("Folder")
+					espforlder.Parent = game.Workspace.CurrentCamera
+				else
+					espforlder = Instance.new("Folder")
+					espforlder.Parent = game.Workspace.CurrentCamera
+				end
+				for i, v in pairs(espforlder:GetChildren()) do
+					v:Destroy()
+				end
+				for _, plr in pairs(plrs:GetChildren()) do
+					if plr.Character and plr.Character.Humanoid.Health > 0 and plr.Name ~= lplr.Name then
+						if TeamBased == true then
+							if plr.Team.Name ~= plrs.LocalPlayer.Team.Name  then
+								local e = espforlder:FindFirstChild(plr.Name)
+								if not e then
+									local fold = Instance.new("Folder", espforlder)
+									fold.Name = plr.Name
+	
+									--partconverter.BrickColor = plr.Team.Color
+									--local teamc = partconverter.Color
+									for i, p in pairs(plr.Character:GetChildren()) do
+										if p:IsA("BasePart") and p.Name ~= "HumanoidRootPart" then
+											local urmom = Instance.new("BoxHandleAdornment")
+											urmom.ZIndex = 10
+											urmom.AlwaysOnTop = true
+											urmom.Color3 = espcolor
+											urmom.Size = p.Size
+											urmom.Adornee = p
+											urmom.Name = tick().." Ur mom has big gay"
+											urmom.Transparency = wallhack_esp_transparency
+											urmom.Parent = fold
+	
+										end
+									end
+									plr.Character.Humanoid.Died:Connect(function()
+										fold:Destroy()
+									end)
+								end
+							end
+						else
+							local e = espforlder:FindFirstChild(plr.Name)
+							if not e then
+								local fold = Instance.new("Folder", espforlder)
+								fold.Name = plr.Name
+	
+								--partconverter.BrickColor = plr.Team.Color
+								--local teamc = Move.BackgroundColor3
+								for i, p in pairs(plr.Character:GetChildren()) do
+									if p:IsA("BasePart") and p.Name ~= "HumanoidRootPart" then
+										local urmom = Instance.new("BoxHandleAdornment")
+										urmom.ZIndex = 10
+										urmom.AlwaysOnTop = true
+										urmom.Color3 = espcolor
+										urmom.Size = p.Size
+										urmom.Adornee = p
+										urmom.Name = tick().." Ur mom has big gay"
+										urmom.Transparency = wallhack_esp_transparency
+										urmom.Parent = fold
+									end
+								end
+								plr.Character.Humanoid.Died:Connect(function()
+									fold:Destroy()
+								end)
+							end
+						end
+	
+	
+					end
+				end
+			end)
+		end
+		local uis = game:GetService("UserInputService")
+		local bringall = false
+		local hided2 = false
+		mouse.KeyDown:Connect(function(a)
+			if a == "t" then
+				--print("worked1")
+				f.addesp()
+			elseif a == gui_hide_button[2] and uis:IsKeyDown(gui_hide_button[1]) then
+				if hided2 == false then
+					hided2 = true
+					autoesp =false
+					if espforlder then
+						espforlder:Destroy()
+					end
+					CCAimbot.Enabled = false
+				else
+					CCAimbot.Enabled = true
+					hided2 = false
+				end
+			elseif a == "u" then
+				if mouselock == false then
+					mouselock = true
+				else
+					mouselock = false
+				end
+			elseif a == "y" then
+				if aimbothider == false then
+					aimbothider = true
+					if aimbothider == true then
+						return
+					end
+				end
+			elseif a == "l" then
+				if autoesp == false then
+					autoesp = true
+				else
+					autoesp = false
+				end
+			elseif a == Aim_Assist_Key[2] and uis:IsKeyDown(Aim_Assist_Key[1]) then
+				if Aim_Assist == true then
+					Aim_Assist = false
+					--print("disabled")
+				else
+					Aim_Assist = true
+				end
+			end
+			if a == "j" then
+				if mouse.Target then
+					mouse.Target:Destroy()
+				end
+			end
+			if a == key then
+				if switch == false then
+					switch = true
+				else
+					switch = false
+					if aimatpart ~= nil then
+						aimatpart = nil
+					end
+				end
+			elseif a == teambasedswitch then
+				if TeamBased == true then
+					TeamBased = false
+					CheatType_3.Text = "Team Based : "..tostring(TeamBased)
+				else
+					TeamBased = true
+					CheatType_3.Text = "Team Based : "..tostring(TeamBased)
+				end
+			elseif a == aimkey then
+				if not aimatpart then
+					local maxangle = math.rad(20)
+					for i, plr in pairs(plrs:GetChildren()) do
+						if plr.Name ~= lplr.Name and plr.Character and plr.Character.Head and plr.Character.Humanoid and plr.Character.Humanoid.Health > 1 then
+							if TeamBased == true then
+								if plr.Team.Name ~= lplr.Team.Name then
+									local an = checkfov(plr.Character.Head)
+									if an < maxangle then
+										maxangle = an
+										aimatpart = plr.Character.Head
+									end
+								end
+							else
+								local an = checkfov(plr.Character.Head)
+								if an < maxangle then
+									maxangle = an
+									aimatpart = plr.Character.Head
+								end
+								--print(plr)
+							end
+							local old = aimatpart
+							plr.Character.Humanoid.Died:Connect(function()
+								--print("died")
+								if aimatpart and aimatpart == old then
+									aimatpart = nil
+								end
+							end)
+	
+						end
+					end
+				else
+					aimatpart = nil
+					canaimat = false
+					delay(1.1, function()
+						canaimat = true
+					end)
+				end
+			end
+		end)
+	
+		function getfovxyz (p0, p1, deg)
+			local x1, y1, z1 = p0:ToOrientation()
+			local cf = CFrame.new(p0.p, p1.p)
+			local x2, y2, z2 = cf:ToOrientation()
+			local d = math.deg
+			if deg then
+				return Vector3.new(d(x1-x2), d(y1-y2), d(z1-z2))
+			else
+				return Vector3.new((x1-x2), (y1-y2), (z1-z2))
+			end
+		end
+	
+	
+		function aimat(part)
+			if part then
+				if aimbothider == true or Aim_Assist == true then
+					cam.CFrame = cam.CFrame:Lerp(CFrame.new(cam.CFrame.p, part.CFrame.p), aimbothiderspeed)
+				else
+	
+					cam.CFrame = CFrame.new(cam.CFrame.p, part.CFrame.p)
+				end
+			end
+		end
+		function checkfov (part)
+			local fov = getfovxyz(game.Workspace.CurrentCamera.CFrame, part.CFrame)
+			local angle = math.abs(fov.X) + math.abs(fov.Y)
+			return angle
+		end
+		pcall(function()
+			delay(0, function()
+				while wait(.4) do
+					if Aim_Assist and not aimatpart and canaimat and lplr.Character and lplr.Character.Humanoid and lplr.Character.Humanoid.Health > 0 then
+						for i, plr in pairs(plrs:GetChildren()) do
+	
+	
+							local minangle = math.rad(5.5)
+							local lastpart = nil
+							local function gg(plr)
+								pcall(function()
+									if plr.Name ~= lplr.Name and plr.Character and plr.Character.Humanoid and plr.Character.Humanoid.Health > 0 and plr.Character.Head then
+										local raycasted = false
+										local cf1 = CFrame.new(cam.CFrame.p, plr.Character.Head.CFrame.p) * CFrame.new(0, 0, -4)
+										local r1 = Ray.new(cf1.p, cf1.LookVector * 9000)
+										local obj, pos = game.Workspace:FindPartOnRayWithIgnoreList(r1,  {lplr.Character.Head})
+										local dist = (plr.Character.Head.CFrame.p- pos).magnitude
+										if dist < 4 then
+											raycasted = true
+										end
+										if raycasted == true then
+											local an1 = getfovxyz(cam.CFrame, plr.Character.Head.CFrame)
+											local an = abs(an1.X) + abs(an1.Y)
+											if an < minangle then
+												minangle = an
+												lastpart = plr.Character.Head
+											end
+										end
+									end
+								end)
+							end
+							if TeamBased then
+								if plr.Team.Name ~= lplr.Team.Name then
+									gg(plr)
+								end
+							else
+								gg(plr)
+							end
+							--print(math.deg(minangle))
+							if lastpart then
+								aimatpart = lastpart
+								aimatpart.Parent.Humanoid.Died:Connect(function()
+									if aimatpart == lastpart then
+										aimatpart = nil
+									end
+								end)
+	
+							end
+						end
+					end
+				end
+			end)
+		end)
+		local oldheadpos
+		local lastaimapart
+		game:GetService("RunService").RenderStepped:Connect(function()
+			CheatType.Text = "Esp loop : "..tostring(autoesp)
+			if aimatpart and lplr.Character and lplr.Character.Head then
+				if BetterDeathCount and lastaimapart and lastaimapart == aimatpart then
+					local dist = (oldheadpos - aimatpart.CFrame.p).magnitude
+					if dist > 40 then
+						aimatpart = nil
+					end
+				end
+				lastaimapart = aimatpart
+				oldheadpos = lastaimapart.CFrame.p
+				do
+					if aimatpart.Parent == plrs.LocalPlayer.Character then
+						aimatpart = nil
+					end
+					aimat(aimatpart)
+					pcall(function()
+						if Aim_Assist == true then
+							local cf1 = CFrame.new(cam.CFrame.p, aimatpart.CFrame.p) * CFrame.new(0, 0, -4)
+							local r1 = Ray.new(cf1.p, cf1.LookVector * 1000)
+							local obj, pos = game.Workspace:FindPartOnRayWithIgnoreList(r1,  {lplr.Character.Head})
+							local dist = (aimatpart.CFrame.p- pos).magnitude
+							if obj then
+								--print(obj:GetFullName())
+							end
+							if not obj or dist > 6 then
+								aimatpart = nil
+								--print("ooof")
+							end
+							canaimat = false
+							delay(.5, function()
+								canaimat = true
+							end)
+						end
+					end)
+				end
+	
+	
+	
+			end
+		end)
+		delay(0, function()
+			while wait(espupdatetime) do
+				if autoesp == true then
+					pcall(function()
+						f.addesp()
+					end)
+				end
+			end
+		end)
+		--warn("loaded")
+		function dragify(Frame)
+			dragToggle = nil
+			dragSpeed = .25 -- You can edit this.
+			dragInput = nil
+			dragStart = nil
+			dragPos = nil
+	
+			function updateInput(input)
+				Delta = input.Position - dragStart
+				Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+				game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+			end
+	
+			Frame.InputBegan:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+					dragToggle = true
+					dragStart = input.Position
+					startPos = Frame.Position
+					input.Changed:Connect(function()
+						if (input.UserInputState == Enum.UserInputState.End) then
+							dragToggle = false
+						end
+					end)
+				end
+			end)
+	
+			Frame.InputChanged:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+					dragInput = input
+				end
+			end)
+	
+			game:GetService("UserInputService").InputChanged:Connect(function(input)
+				if (input == dragInput and dragToggle) then
+					updateInput(input)
+				end
+			end)
+		end
+		dragify(AimbotFrame)
+	
+		local Player = game:GetService'Players'.LocalPlayer;
+		local UIS = game:GetService'UserInputService';
+	
+		_G.JumpHeight = 50;
+	
+		function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+						end)
+					end
+				end)
+			end
+		end)
+	end)
+end
+coroutine.wrap(GXJO_fake_script)()
+local function ATXTMS_fake_script() -- RightArrow_2.LocalScript 
+	local script = Instance.new('LocalScript', RightArrow_2)
+
+	local gamesChildren = script.Parent.Parent:GetChildren()
+	local globalScriptsChildren = script.Parent.Parent.Parent.GlobalScripts:GetChildren()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i = 1, #gamesChildren do
+			local child = gamesChildren[i]
+			child.Visible = false
+		end
+		
+		for i = 1, #globalScriptsChildren do
+			local child = globalScriptsChildren[i]
+			child.Visible = true
+		end
+	end)
+end
+coroutine.wrap(ATXTMS_fake_script)()
+local function IFKH_fake_script() -- SharkBite_2.LocalScript 
+	local script = Instance.new('LocalScript', SharkBite_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
+	end)
+end
+coroutine.wrap(IFKH_fake_script)()
+local function TMWARFB_fake_script() -- SaberSim_2.LocalScript 
+	local script = Instance.new('LocalScript', SaberSim_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/Saber%20Sim'),true))()
+	end)
+end
+coroutine.wrap(TMWARFB_fake_script)()
+local function JDTI_fake_script() -- FTF_2.LocalScript 
+	local script = Instance.new('LocalScript', FTF_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/Flee%20The%20Facility'),true))()
+	end)
+end
+coroutine.wrap(JDTI_fake_script)()
+local function WFMCTF_fake_script() -- MM2_2.LocalScript 
+	local script = Instance.new('LocalScript', MM2_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel'),true))()
+	end)
+end
+coroutine.wrap(WFMCTF_fake_script)()
+local function CDARTQO_fake_script() -- LeftArrow_2.LocalScript 
+	local script = Instance.new('LocalScript', LeftArrow_2)
+
+	local gamesChildren = script.Parent.Parent.Parent.Games:GetChildren()
+	local globalScriptsChildren = script.Parent.Parent:GetChildren()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i = 1, #gamesChildren do
+			local child = gamesChildren[i]
+			child.Visible = true
+		end
+		
+		for i = 1, #globalScriptsChildren do
+			local child = globalScriptsChildren[i]
+			child.Visible = false
+		end
+	end)
+end
+coroutine.wrap(CDARTQO_fake_script)()
+local function GDDLT_fake_script() -- Dex_2.LocalScript 
+	local script = Instance.new('LocalScript', Dex_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://gitlab.com/cccontrol/cccontrol/-/raw/master/ExtraScripts/DarkDex'),true))()
+	end)
+end
+coroutine.wrap(GDDLT_fake_script)()
+local function SVJI_fake_script() -- OwlHub_2.LocalScript 
+	local script = Instance.new('LocalScript', OwlHub_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt'), true))()
+	end)
+end
+coroutine.wrap(SVJI_fake_script)()
+local function JAOB_fake_script() -- RevizAdmin_2.LocalScript 
+	local script = Instance.new('LocalScript', RevizAdmin_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://pastebinp.com/raw/Hv2BEncA'),true))()
+	end)
+end
+coroutine.wrap(JAOB_fake_script)()
+local function AGPKU_fake_script() -- ClickTP_2.LocalScript 
+	local script = Instance.new('LocalScript', ClickTP_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		local tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end)
+end
+coroutine.wrap(AGPKU_fake_script)()
+local function SHBHN_fake_script() -- Minimise.LocalScript 
+	local script = Instance.new('LocalScript', Minimise)
+
+	while true do
+		script.Parent.Position = script.Parent.Parent.Main.Position - UDim2.new(0, 235, 0, 135)
+		wait()
+	end
+end
+coroutine.wrap(SHBHN_fake_script)()
+local function ARRGWXQ_fake_script() -- Minimise.LocalScript 
+	local script = Instance.new('LocalScript', Minimise)
+
+	local minimised = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if minimised == false then
+			script.Parent.Parent.Main.Visible = false
+			script.Parent.Parent.VIP.Visible = false
+			script.Parent.Text = "+"
+			minimised = true
+		else
+			script.Parent.Parent.Main.Visible = true
+			script.Parent.Parent.VIP.Visible = true
+			script.Parent.Text = "-"
+			minimised = false
+		end
+	end)
+end
+coroutine.wrap(ARRGWXQ_fake_script)()
+local function YVNRKK_fake_script() -- MinimiseVIP.LocalScript 
+	local script = Instance.new('LocalScript', MinimiseVIP)
+
+	while true do
+		script.Parent.Position = script.Parent.Parent.VIP.Position - UDim2.new(0, 235, 0, 135)
+		wait()
+	end
+end
+coroutine.wrap(YVNRKK_fake_script)()
+local function OPSSO_fake_script() -- MinimiseVIP.LocalScript 
+	local script = Instance.new('LocalScript', MinimiseVIP)
+
+	local minimised = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if minimised == false then
+			script.Parent.Parent.VIP.Visible = false
+			script.Parent.Text = "+"
+			minimised = true
+		else
+			script.Parent.Parent.VIP.Visible = true
+			script.Parent.Text = "-"
+			minimised = false
+		end
+	end)
+end
+coroutine.wrap(OPSSO_fake_script)()
